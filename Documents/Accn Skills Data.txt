@@ -1,0 +1,546 @@
+Data & AI
+We help organizations optimize and reinvent their business with Data & AI, ensuring responsible and impactful application. We unlock the power of data; convert raw AI technologies into scaled, customized AI systems; reinvent work and learning; and support responsible AI practices.
+Data Eng, Mgmt & Governance	Collapse
+Make data accessible by building systems that collect, organize, manage and store raw data. Convert data into available, accurate, and usable information that can be interpreted by others.
+
+Skills:
+Data Quality Tools & Methods  |  Data Governance Operating Model  |  Data Standards  |  Data Engineering  |  Data Governance  |  Physical Data Models  |  Continuous Integration (CI) Tools  |  Data Warehouse Tools  |  Data Building Tool  |  Data Quality Management  |  Enterprise Data Management
+
+AI Infrastructure Architecture	Collapse
+Architect and build custom Artificial Intelligence (AI) infrastructure/hardware solutions. Optimize AI infrastructure/hardware performance, power consumption, cost and scalability of computational stack. Advise on AI infrastructure technology and vendor evaluation, selection and full stack integration.
+
+Skills:
+Infrastructure Strategy  |  Cloud Infrastructure Assessment & Planning | Infrastructure As Code (IaC)  |  Cloud Infrastructure Architecture Design  |  Cloud Infrastructure Security  |  Machine Learning Architecture Design  |  Infrastructure Planning  |  Cloud Infrastructure
+
+AI LLM Technology Architecture	Collapse
+Design and implement the technology architecture for advanced AI (including Large Language Model (LLM)) platform systems and solutions. Translate business roadmap into technical requirements and architecture.
+
+Skills:
+Large Language Models  |  Data Engineering  |  Deep Learning  |  Cloud Data Architecture  |  Cloud Technology Architecture  |  Machine Learning Operations  |  Machine Learning Architecture Design  |  Machine Learning
+
+AI/ML Computational Science	Collapse
+Formulate real-world problems into practical, efficient and scalable AI and machine learning solutions. Design, experiment and develop advanced artificial intelligence (AI) and machine learning (ML) systems.
+
+Skills:
+Data & AI Solution Architecture  |  Predictive Modeling and Analytics | Data Structures and Algorithms  |  Large Language Models  |  Data Science  |  Natural Language Processing (NLP)  |  Deep Learning  |  Machine Learning Operations  |  Machine Learning Architecture Design  |  Machine Learning
+
+BI Engineering	Collapse
+Develop, migrate, deploy and maintain commercial and bespoke data-driven insights and knowledge engine interfaces that drive adoption and decision making. Build scalable and open Business Intelligence (BI) architecture to provide cross-enterprise visibility and agility for business innovation. Integrate security and data privacy protection.
+
+Skills:
+Data Analysis & Interpretation  |  Data Modeling Techniques and Methodologies  |  Performance & Scalability Design  |  Data Mapping & Transformation | Data Architecture Implementation & Test  |  BI Architecture Design  |  BI Reporting Tools
+
+Data Architecture	Collapse
+Analyze, plan and define data architecture framework, including security, reference data, metadata and master data. Codify industry and functional knowledge into data models. Optimize models for business use.
+
+Skills:
+Data Modeling Techniques and Methodologies  |  Technology Architecture Assessment  |  Technology Architecture Blueprint & Roadmap Definition  |  Technology Architecture Implementation  |  Complex Event Processing (CEP)  |  Big Data Analytics  |  Custom Application Architectures  |  Integration Architecture Estimating  |  Integration Architecture Blueprint & Design Solutions  |  Data Engineering  | Knowledge Graph  |  Software Development Effort Estimation  |  Integration Architecture Implementation  |  Data Architecture Principles  | Machine Learning Operations | Technology Assessment  |  Automation Systems  |  Technology Architecture  | Solution Architecture
+
+Data Eng, Mgmt & Governance	Collapse
+Make data accessible by building systems that collect, organize, manage and store raw data. Convert data into available, accurate, and usable information that can be interpreted by others.
+
+Skills:
+Data Quality Tools & Methods  |  Data Governance Operating Model  |  Data Standards  |  Data Engineering  |  Data Governance  |  Physical Data Models  |  Continuous Integration (CI) Tools  |  Data Warehouse Tools  |  Data Building Tool  |  Data Quality Management  |  Enterprise Data Management
+
+
+Full Stack LLM Development	Collapse
+Develop large language model (LLM)-based applications. Build, train and fine tune LLMs to improve performance, accuracy and alignment of the general-purpose models. Develop and integrate LLMs and/or LLM applications into products and services. Design, develop and optimize Artificial Intelligence (AI) prompts.
+
+Skills:
+Prompt Validation  |  Prompt Authoring  |  Prompt Seeding  |  Large Language Models  |  Software Engineering  |  Prompt Engineering  | Machine Learning  |  Linguistics
+
+
+Responsible AI	Collapse
+Responsible for driving the adoption of responsible, ethical and sustainable data practices for data and the development and deployment of artificial intelligence (AI) systems. Work across multiple projects to ensure that the development and deployment of AI technologies complies with ethical principles as well as local legislation and regulations governing the use of AI.
+
+Skills:
+Data Governance  |  Artificial Intelligence (AI)  |  Responsible AI  |  Data Security  |  Data Privacy Protection  |  Enterprise Data Management  |  Green Artificial Intelligence  |  Generative AI Data Ethics
+
+Vis & Interaction Science	Collapse
+Design and create data and insight interfaces that drive adoption, decision-making, and behavior change. Translate requirements into prototypes and experiences building organizational data literacy and cooperative data cultures. Provide actionable and industry & function-centered insights using business intelligence and visualization tools.
+
+Skills:
+BI Strategy  |  Data Analysis & Interpretation  |  Interaction Design  |  Data Visualization  |  Information Architectures  |  Human-Centered Design
+
+
+Own your skills
+Your skills represent what you know and what you want to be known for at Accenture. Keeping your skills profile current — updating it each time you roll-off a project or every six months — is the easiest way to showcase your expertise.
+
+Think of your skills as your digital passport, showcasing your strengths and opening doors to meaningful learning and career opportunities. By highlighting what you do best, your skills help connect you to pathways that truly fit your career goals.
+
+Take charge of your career and update your skills profile today. Need help? Use our step-by-step guide.
+
+
+AI & Data	Collapse
+ 
+Please note that in this catalog we are showing a maximum of 20 skills for each specialization. There are specializations that have more than 20 skills associated. For this cases you will find a comment within the specialization, along with a link to see the entire list of skills.
+
+Specialization	Description	        Priority Skills
+Agentic AI	Agentic AI includes the focused development of AI systems with autonomous decision making and goal directed behavior within a specific domain. It emphasizes the AIs ability to act independently and adaptively in pursuit of defined objectives.	
+Accenture AI Refinery
+Aisera Agentic AI Platform
+AWS Bedrock AgentCore
+Anthropic Claude API
+Anthropic Claude AI
+Microsoft Azure AI Foundry
+OpenAI ChatGPT
+Agent Evaluation
+Agent Interoperability
+AgentOps
+Model Context Protocol
+Multi-Agent Orchestration Architecture
+Agent Context Engineering
+Agent Self-Reflection
+Agentic Goal Programming
+Memory Management
+ReAct Reasoning & Acting Framework
+Agentic AI Foundational Security Controls
+Secure User Access for Agentic AI
+AI Hallucination Detection & Mitigation
+Responsible AI for Agents
+Trustworthy Agent Safety & Security Monitoring
+*Click here to see the full list of skills.
+
+AI and Data Advisory	Focuses on leveraging artificial intelligence and data strategies to drive business transformation. It involves assessing current AI capabilities, defining modernization roadmaps, optimizing processes and operating models, and implementing best practices for AI- and data-driven decision-making across various areas, including advisory and consulting.	
+AI & Data Operating Model
+AI & Data Processes
+Data Analysis & Interpretation
+Data Assessment
+AI & Data Patterns & Technologies
+AI & Data Platforms Strategy
+AI & Data Solution Architecture
+AI & Data Strategy
+Artificial Intelligence Ethics
+Data Consulting
+Data Value Articulation
+Responsible AI
+AI Architecture	Design and organization of systems that incorporate artificial intelligence techniques and capabilities. Create frameworks and structures to enable the development and deployment of AI applications.	
+AI Architecture
+Alibaba Cloud ET Brain Platform
+Application Architecture Design
+Artificial Intelligence for IT Operations (AIOps)
+Artificial Intelligence Strategy
+AWS AI Services
+AWS Architecture
+Cloud Technology Architecture
+Cloudera Data Platform
+Foundation Model Fine Tuning
+Foundation Models
+Google Cloud Platform Architecture
+Green Artificial Intelligence
+Machine Learning Architecture Design
+Machine Learning Operations
+Microsoft Azure Architecture
+Microsoft Azure Databricks
+Oracle Cloud Infrastructure (OCI) Sovereign AI
+Salesforce Einstein AI
+SAP Gen AI Hub
+Security Architecture Design
+*Click here to see the full list of skills.
+
+Anthropic	Design and deliver AI driven solutions using the Anthropic ecosystem, centered on the Claude API and product suite by orchestrating intelligent workflows, modernizing software systems, applying automation first development practices, and optimizing end to end lifecycle performance with Anthropic technologies.	
+Anthropic Claude Code
+Anthropic Claude CoWork
+Anthropic Agent SDK
+Anthropic Claude AI
+Anthropic Claude API
+Computer Vision	Deliver methods for acquiring, processing, analyzing and understanding digital images. Develop algorithms and applications related to image and video processing that perform functions such as object identification and classification.	
+AWS Rekognition
+Azure Cognitive Service For Vision
+Computer Vision
+Emgu CV
+Emotion Detection
+Facial Recognition
+Gesture and Voice Design & Control
+Google Cloud Vision API
+Image Analysis
+Image Augmentation
+Image Synthesis
+Medical Imaging Analysis
+OpenCV
+Optical Character Recognition (OCR)
+Salesforce Einstein Vision
+Satellite Imagery
+Video and Content Analytics
+Content & Search Analytics	Content & Search Analytics helps enterprises unlock value within their unstructured and structured data by combining AI technologies such as cognitive search, machine learning and NLP.	
+Aspire Content Processing
+Attivio Platform
+Cloudera Search
+Coveo Platform
+Google Cloud Search
+Lucidworks Fusion
+Saga Natural Language Understanding (NLU)
+ServiceNow AI Search
+Data Architecture	Defining and aligning the major types and sources of data necessary to support the business and determining how it is used, stored, managed and integrated within the organization's IT systems and applications.	
+AWS Neptune
+Cloud Backup Architecture and Design
+Cloud Data Architecture
+Data Access & Persistence Patterns & Techniques
+Data Architecture Principles
+Data Lakehouse Architecture
+Data Mesh
+Data Modeling Techniques and Methodologies
+Data Vault Modeling
+Data Virtualization
+Database Architecture
+ERwin
+Graph Databases
+Modern Data Integration
+NoSQL
+OLAP (Online Analytical Processing)
+Databricks
+It focuses on designing, building, and managing end-to-end data and AI workflows on the Databricks ecosystem, including clusters, pipelines, governance, and model lifecycle. It ensures scalable, secure, and optimized deployment of Lakehouse and AI solutions for enterprise environments.	
+Data Lakehouse Architecture
+Databricks Administration
+Databricks Agent Bricks
+Databricks AI/BI Genie
+Databricks Asset Bundles
+Databricks Catalog Explorer
+Databricks Lakeflow
+Databricks Lakehouse Monitoring
+Databricks MLFLOW
+Databricks Mosaic AI
+Databricks SQL
+Databricks Unified Data Analytics Platform
+Databricks Unity Catalog
+Microsoft Azure Databricks
+SAP Databricks
+Spark Declarative Pipelines
+Data Engineering	Construct, optimize and maintain the infrastructure for data generation, transformation, and storage. Design pipelines, workflows and data platforms to facilitate the seamless flow of data across systems.	
+Big Data Architecture
+Big Data Engineering
+Data Engineering
+Amazon EMR
+Amazon Kinesis
+Apache Airflow
+Apache Kafka
+Apache Spark
+AWS Glue
+Amazon Redshift
+Azure Synapse Analytics
+Databricks Unified Data
+Analytics Platform
+Docker (Software)
+Google BigQuery
+MongoDB
+Snowflake Data Warehouse
+Terraform (Software)
+Denodo Data Virtualization Platform
+IBM InfoSphere DataStage
+*Click here to see the full list of skills.
+
+Data Migration	Migrate data from the legacy data warehouse to cloud technologies. Leverage automation technologies to test end to end solutions.	
+Ab Initio
+Ab Initio Extract Transform Load (ETL) Tool
+Accenture Smart Data Mover
+Accenture Smart Data Validator
+Apache Hadoop
+Apache Hadoop Administration
+AWS Database Migration Service (DMS)
+Bladebridge
+Cloud Data Migration
+Cloud Data Migration Testing
+Cloud Storage Architecture
+Cloud Test Data Management
+Cloudera Altus
+Cloudera Data Platform
+Cloudera Hadoop
+Cloudera Hadoop Operations
+Data Conversions
+Data Mapping & Transformation
+Data Migration Design
+Data Migrations
+*Click here to see the full list of skills.
+
+Data Science and Machine Learning	Create systems for data driven decisions and drive innovation using large-scale data and AI across various functions and industries. Bring together algorithms for intelligence and tools/platforms for scalable analytics. Leverage deep expertise in machine learning, statistical modelling, analytics programming and data analysis to create intelligent systems which improve their performance over time.	
+Machine Learning (ML)
+Machine Learning Operations
+Machine Learning Model Management
+Machine Learning Architecture Design
+Amazon Sagemaker
+Databricks Unified Data Analytics Platform
+GCP - Vertex AI
+Microsoft Azure Machine Learning
+Palantir Foundry
+ServiceNow Predictive AIOps
+Data Drift
+Feature Engineering
+Artificial Intelligence (AI)
+Machine Learning
+Natural Language Processing (NLP)
+Computer Vision
+Generative AI
+Large Language Models (LLMs)
+PyTorch
+Tensorflow
+MLflow
+*Click here to see the full list of skills.
+
+Data Visualization	Create compelling visual representations of complex data sets. Use tools and techniques to translate raw data into insights and dashboards that enhance understanding, aid decision making and communicate insights to a broad audience in an impactful way.	
+Advanced Data Visualization Techniques
+Amazon Quicksight
+BI Strategy
+Business Intelligence (BI) Reporting Tools
+Common Visualization Object Modeler
+Data Analysis & Interpretation
+Data Value Articulation
+Data Visualization
+Google Data Studio
+Google Looker Data Platform
+IBM Cognos Analytics
+IBM Cognos Reporting
+Information Architectures
+Microsoft Copilot for Power BI
+Microsoft Power Business Intelligence (BI)
+MicroStrategy Business Intelligence
+Oracle Data Visualization Cloud Service
+Palantir Foundry
+Qlik Insight Advisor
+Qlik Sense
+*Click here to see the full list of skills.
+
+Enterprise BI Architecture & Engineering	Design and implement systems and frameworks that enable organizations to collect, manage, analyze, and visualize data for informed decision-making and strategic planning. Create a robust and scalable infrastructure to support BI initiatives within an enterprise.	
+Alibaba Cloud Quick BI
+Alibaba DataV
+AtScale (Platform)
+BI Architecture Design
+D3.js
+Data Architecture Implementation & Test
+Data Mapping & Transformation
+Data Modeling Techniques and Methodologies
+Data Profiling & Discovery
+Grafana
+GraphQL (Query Language)
+IBM Cognos TM1
+Machine Learning Architecture Design
+Microsoft Business Intelligence (BI) Testing
+Microsoft SQL Server Analysis Services (SSAS)
+Oracle Business Intelligence Enterprise Edition (OBIEE) Plus
+Pentaho BI Suite
+Performance & Scalability Design
+Platform Engineering
+Qlik Compose
+*Click here to see the full list of skills.
+
+Generative AI	Create models and systems capable of generating new, original content. Develop algorithms and architectures to produce novel outputs, such as images, texts, music, and even virtual environments, based on patterns and examples learned from existing data.	
+Generative AI
+Generative AI Data Ethics
+Generative Systems
+Prompt Authoring
+Prompt Engineering
+Retrieval-Augmented Generation
+Computer Vision
+Deep Learning
+Large Language Models (LLMs)
+LLMOps
+Natural Language Processing (NLP)
+GitHub Copilot
+Google Cloud Gemini
+Microsoft Azure OpenAI Service
+OpenAI ChatGPT
+Anthropic Claude AI
+SAP Generative AI
+SAP Joule for Developers (J4D)
+Salesforce Einstein GPT
+AI Governance
+Responsible AI
+*Click here to see the full list of skills.
+
+HR Analytics	Define business value drivers and performance measures that enable strategic analysis of workforce effectiveness and performance trends.	
+Attrition Modeling
+Change Analytics
+HR Analytics
+Learning Analytics
+Network Analytics
+Predictive Modeling and Analytics
+Resource Capacity Forecasting & Planning
+Statistical Analysis
+Structural Equation Modeling with PLS
+Time Series Modeling
+Workday Prism Analytics
+Workforce Analytics
+Intelligent Process Automation	Expertise in RPA centric strategies and deployments for the entire spectrum of process automation through robotics - Integrated desktop scripting, virtual workforce, digital and virtual assistants and cognitive computing.	
+Accenture AI HUB Platform
+Accenture Delivery Methods (ADM) for RPA
+Accenture Intelligent Case Processing
+Accenture Solutions.AI - Customer Engagement
+Accenture Solutions.AI - Experience Insights
+Accenture Solutions.AI - IRG / B2B Growth
+Accenture Solutions.AI - Marketing
+Accenture Solutions.AI - Pricing
+Accenture Solutions.AI - Processing
+Accenture Solutions.AI - Retail - Customer
+Accenture Solutions.AI - Retail - Supply Chain
+Accenture Solutions.AI - Talent
+Automation Anywhere
+Automation in Application Development
+Blue Prism Automation Orchestrator
+Blue Prism Robotic Process Automation (RPA)
+Cloud Automation DevOps
+Kofax Intelligent Automation Platform
+Microsoft Artificial Intelligence (AI) Builder
+Microsoft Power Automate For Desktop
+Microsoft Robotic Process Automation
+*Click here to see the full list of skills.
+
+Mistral	Design and deliver AI-driven solutions using the Mistral ecosystem by leveraging advanced AI models and agentic capabilities to orchestrate intelligent workflows, modernize software systems, apply automation-first development practices, and optimize end-to-end enterprise AI outcomes.	
+AI Governance
+Large Language Model (LLM) Fine-Tuning
+Mistral Models
+Model Evaluation
+MultiModal AI
+Retrieval-Augmented Generation
+Sovereign AI
+Mistral Cloud Deployment
+Mistral Infrastructure Deployment
+Mistral On-premise Sovereign Deployment
+Mistral Agents
+Mistral API
+Mistral Tool Integration
+Mistral Vibe for Code
+Mistral AI Studio
+Mistral Context Engine
+Mistral Forge
+Mistral Vibe
+Modern Data Management & Governance	Implement strategies for collecting, storing, processing, and governing data that address the complexity of modern data ecosystems. Ensure data quality, security, and accessibility, adopting technologies like cloud platforms and advanced analytics to optimize data workflows.	
+Accenture AIP Data Governance Services (ADGS)
+Accenture Unified Data Model AUDM
+Alation Data Catalog
+Amazon Macie
+Ataccama
+AWS Glue
+AWS Management Console
+BigID Data Intelligence Platform
+Client Data Protection (CDP) Compliance
+Client Reference Data Management
+Cloudera Altus
+Collibra Data Governance
+Collibra Data Quality & Observability
+Data Archiving
+Data Archiving Patterns & Techniques
+Data Governance
+Data Governance Operating Model
+Data Lineage
+Data Marketplace
+Data Mesh
+*Click here to see the full list of skills.
+
+Natural Language Processing	Leverage computational techniques to understand human language. Develop algorithms and models for text analysis, sentiment analysis and language generation. Create applications that interact effectively with natural language input.	
+Alibaba Cloud NLP Platform
+AWS Comprehend
+AWS Polly
+AWS Transcribe
+AWS Translate
+Cognitive Search
+Google Cloud Natural Language API
+Google Translate
+IBM Watson Cognitive Services
+IBM Watson Speech to Text (STT)
+Large Language Models
+Machine Translation
+Microsoft Azure Cognitive Services
+Natural Language Generation
+Natural Language Processing (NLP)
+NLP Frameworks
+NLP Modeling
+Nuance
+Salesforce Einstein NLP
+Text to Speech
+*Click here to see the full list of skills.
+
+NVIDIA	NVIDIAs focused expertise and capabilities in advanced visualization and simulation technologies, AI/ML, GenAI, and software frameworks.	
+Compute Unified Device Architecture (CUDA)
+NVIDIA ACE
+NVIDIA AI Foundations
+NVIDIA Base Command
+NVIDIA Clara
+Nvidia CloudXR
+NVIDIA cuOPT
+NVIDIA Data Center & Cloud Computing
+Nvidia Drive AGX
+NVIDIA Isaac
+NVIDIA Jetson
+NVIDIA Metropolis
+NVIDIA Morpheus
+NVIDIA NeMo
+NVIDIA Networking
+NVIDIA NIM
+Nvidia Omniverse
+NVIDIA PhysX
+NVIDIA Picasso
+NVIDIA RAPIDS
+NVIDIA Riva
+OpenACC
+OpenAI	OpenAI provides a unified ecosystem to design, integrate, and operate generative AI applications. It combines advanced models and solutions with a robust platform, APIs, and engineering tools to enable agentic workflows, multimodal creation, and enterprise grade optimization across products and workflows.	
+OpenAI Agentic Commerce
+OpenAI for Advertising & Marketing
+OpenAI UX Interaction Design
+OpenAI Agents SDK
+OpenAI API
+OpenAI Codex
+OpenAI Frontier Platform
+OpenAI Voice Agents
+Agentic Commerce Protocol
+Custom Generative Pre-trained Transformers (GPTs)
+OpenAI ChatGPT
+OpenAI ChatGPT Application Development
+Palantir Foundry	Develop and deploy solutions using the Palantir Foundry platform to support data integration, analytics, and operational workflows.	
+Palantir Foundry Ontology
+Palantir AIP Agent Studio
+Palantir AIP Logic
+Palantir AIP Model Operations
+Palantir Foundry Ontology SDK
+Palantir Foundry Workshop
+Palantir Foundry
+Palantir Foundry Pipeline Builder
+Palantir Foundry Transforms
+Palantir Foundry Resource Optimization
+Palantir Foundry Security Governance
+Risk Analytics	Develops solutions and systems that provide quality and traceability of risk data and analytics to be used to provide business insights.	
+Counterparty Risk
+Credit Management & Assessment
+Credit Risk Management
+CTRM Risk Management
+Financial Stress Testing
+Interest Rate Risk Management
+Market Risk Management
+Risk Analysis & Modeling
+Risk Analytics Modelling and Reporting
+Value at Risk (VaR)
+Snowflake	Snowflake focuses on designing, building, and operating modern cloud native, agentic ready data and AI platforms using the Snowflake Data Cloud to enable scalable, secure analytics, autonomous data workflows, and AI driven decisioning.	
+Snowflake Cortex Code
+Snowflake GenAI
+Snowflake Intelligence
+Snowflake (Platform)
+Snowflake Data Warehouse
+Snowflake Schema
+Snowflake Snowpark
+Snowflake Snowpipe
+GraphRAG on Snowflake
+Snowflake Polaris Catalog
+Snowflake SnowConvert AI
+Snowflake Snowpipe Streaming
+Virtual Agents	Deliver expertise around virtual agents, a contact center capability that uses a virtual character, created through computer generation, animation, and artificial intelligence, as a customer service agent via chat bot functionality. The intelligent virtual agent is able to answer customer questions and provide information on a company's products and services.	
+3D Designing
+Accenture Virtual Assistant (AVA) Platform
+Alibaba Cloud Intelligent Service Robot
+Amazon Alexa
+AWS Lex
+Chatbots
+Cognigy.AI Platform
+Conversational AI
+Conversational Analytics
+Conversational User Interface (CUI)
+Google Cloud Dialogflow
+IBM Watson Conversation Service
+IBM Watson Natural Language Understanding (NLU)
+IPSoft Amelia
+Kore.AI XO Platform
+Microsoft Azure Language Understanding (LUIS) Framework
+Microsoft BOT Framework
+Microsoft Power Virtual Agents
+Nuance Nina
+Oracle Cloud Infrastructure (OCI) Digital Assistant
+*Click here to see the full list of skills.
+
+

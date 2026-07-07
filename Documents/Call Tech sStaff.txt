@@ -1,0 +1,23 @@
+-licenta de VS
+-subscriptie azure devops
+-mkdocs - nu neaparat
+-domeniu
+
+-markdown - se scriu paginile
+-javascript cu mkdocs pentru checkboxes
+-mkdocs.yml
+-azure-pipelines.yml
+-visual studio code
+-azure account - Cata Novac a dat ..avea subscription pt internship
+-in azure ambitious-smoke Damoc sau Novac 
+-request pentru domain name - e mai complicat-cineva din Accenture poate sa dea
+-datcai - l-a facut Cata Novac
+
+draw ui
+
+
+
+
+
+
+

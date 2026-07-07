@@ -1,0 +1,65 @@
+site_name: DATC Data Hub
+site_description: Learning paths and competency frameworks for the DATC Data Platform (DEVI)
+site_author: DATC Data Platform Team
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/accenture-logo.png
+  favicon: assets/accenture-favicon.ico
+  palette:
+    primary: deep purple
+    accent: deep purple
+  font:
+    text: Roboto
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/accenture.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Domains:
+    - Overview: domains/index.md
+    - Visual Insights (Power BI):
+      - Overview: domains/visual-insights/index.md
+      - Associate: domains/visual-insights/associate.md
+      - Analyst: domains/visual-insights/analyst.md
+      - Senior Analyst: domains/visual-insights/senior-analyst.md
+      - Specialist: domains/visual-insights/specialist.md
+      - Associate Manager: domains/visual-insights/associate-manager.md
+      - BI Architect: domains/visual-insights/bi-architect.md
+      - Lead BI Architect: domains/visual-insights/lead-bi-architect.md
+    - Data Engineering:
+      - Overview: domains/data-engineering/index.md
+      - Associate: domains/data-engineering/associate.md
+      - Analyst: domains/data-engineering/analyst.md
+      - Senior Analyst: domains/data-engineering/senior-analyst.md
+      - Specialist: domains/data-engineering/specialist.md
+      - Associate Manager: domains/data-engineering/associate-manager.md
+      - Data Architect: domains/data-engineering/data-architect.md
+      - Lead Data Architect: domains/data-engineering/lead-data-architect.md
+  - Curriculum:
+    - Overview: curriculum/index.md
+    - Competency Map: curriculum/competency-map.md
+  - Assets: assets/registry.md
+
+copyright: "&copy; 2025 Accenture. All rights reserved."

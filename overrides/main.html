@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block footer %}
+  {{ super() }}
+  <div class="datc-brand-footer">
+    <div class="datc-brand-footer__inner">
+      <img src="{{ 'assets/accenture-logo.png' | url }}" class="datc-brand-footer__logo" alt="Accenture" />
+      <span class="datc-brand-footer__wordmark">accenture</span>
+      <span class="datc-brand-footer__divider">|</span>
+      <span class="datc-brand-footer__team">DATC Data Hub</span>
+    </div>
+  </div>
+{% endblock %}
