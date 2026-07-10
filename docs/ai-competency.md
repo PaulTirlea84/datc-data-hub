@@ -6,28 +6,14 @@ Welcome to the **DATC Data Platform AI Competency** framework — the reference 
 
 The Data Platform is Accenture Bucharest's delivery capability within the global **Data & AI** practice — part of Danubia ATC, a centre with **119 specialists** across two domains. We cover the full data value chain from raw ingestion through to decision-ready insights.
 
-<div class="grid cards" markdown>
+<div style="border: 1px solid var(--md-default-fg-color--lightest); border-radius: 4px; padding: 1.25rem 1.5rem; margin: 1rem 0;">
+  <div style="font-weight: 700; margin-bottom: 0.5rem;">🗄️ Data Engineering</div>
+  <div>Back-end data infrastructure — pipelines, cloud platforms, data architecture, storage, governance, and AI-ready data layers. Data Engineers build the foundation that powers analytics, reporting, and AI applications.</div>
+</div>
 
--   :material-database-outline: **Data Engineering**
-
-    ---
-    Back-end data infrastructure — pipelines, cloud platforms, data architecture,
-    storage, governance, and AI-ready data layers.
-
-    **76 people · Danubia / 34 Bucharest**
-
-    [:octicons-arrow-right-24: Explore domain](domains/data-engineering/index.md)
-
--   :material-chart-bar: **Data Analytics**
-
-    ---
-    Front-end data delivery — dashboards, semantic models, reporting,
-    data visualisation, and BI architecture.
-
-    **43 people · Danubia / 7 Bucharest**
-
-    [:octicons-arrow-right-24: Explore domain](domains/visual-insights/index.md)
-
+<div style="border: 1px solid var(--md-default-fg-color--lightest); border-radius: 4px; padding: 1.25rem 1.5rem; margin: 1rem 0;">
+  <div style="font-weight: 700; margin-bottom: 0.5rem;">📊 Data Analytics</div>
+  <div>Front-end data delivery — dashboards, semantic models, reporting, data visualisation, and BI architecture. Analytics practitioners turn data into decisions and drive insight across the organisation.</div>
 </div>
 
 Data Engineering builds the foundation. Data Analytics delivers the insight. Both are essential — and both must evolve with AI.
@@ -38,15 +24,15 @@ Data Engineering builds the foundation. Data Analytics delivers the insight. Bot
 
 Both domains share the same career level framework. Each level has a defined AI proficiency requirement — higher levels are expected to use AI more deeply and independently.
 
-| Career Level | Role | Data Analytics | Data Engineering |
-|:---:|---|:---:|:---:|
-| 12 | Associate | P1 | P1 |
-| 11 | Analyst | P1 | P1 |
-| 10 | Senior Analyst | P2 | P2 |
-| 9 | Specialist | P3 | P3 |
-| 8 | Associate Manager | P3 | P3 |
-| 7 | Manager | P4 | P4 |
-| — | Architect | P5 | P5 |
+| Career Level | Role | Proficiency | Level Name |
+|:---:|---|:---:|---|
+| 12 | Associate | P1 | AI Assisted |
+| 11 | Analyst | P1 | AI Assisted |
+| 10 | Senior Analyst | P2 | AI Accelerated |
+| 9 | Specialist | P3 | Agentic AI |
+| 8 | Associate Manager | P3 | Agentic AI |
+| 7 | Manager | P4 | Integrated AI |
+| ✦ | Architect | P5 | Governed AI |
 
 ??? note "AI Data Engineering — role details"
 
@@ -74,38 +60,17 @@ Both domains share the same career level framework. Each level has a defined AI 
 
 ---
 
-## AI Proficiency Scale — P1 to P5
+## AI Proficiency Scale
 
 All AI competency requirements use a five-level proficiency scale aligned to Accenture's FY26 AI Data Platform Strategy. Requirements are **cumulative** — each level includes all previous proficiency levels.
 
-<div class="grid cards" markdown>
-
--   **P1 — AI Assisted**
-
-    ---
-    You use built-in AI features (Copilot, suggestions, recommendations) to support your day-to-day work. You follow existing prompts and validate outputs with guidance.
-
--   **P2 — AI Accelerated**
-
-    ---
-    You actively use LLMs to speed up your tasks. You validate AI outputs independently and adapt prompts for better results. AI meaningfully reduces the time for standard work.
-
--   **P3 — Agentic AI**
-
-    ---
-    You design and execute multi-step AI workflows. You build reusable prompt structures, apply RAG patterns where relevant, and guide peers on effective AI use.
-
--   **P4 — Integrated AI**
-
-    ---
-    You embed AI capabilities directly into pipelines, dashboards, and team workflows at project level. You create frameworks and lead AI adoption on your engagements.
-
--   **P5 — Governed AI**
-
-    ---
-    You define standards, governance, and strategy for AI use across the practice. You advise leadership and shape how AI evolves in the organisation.
-
-</div>
+| Level | Name | What It Means |
+|:---:|:---:|---|
+| **P1** | **AI Assisted** | You use built-in AI features (Copilot, suggestions, recommendations) to support your day-to-day work. You follow existing prompts and validate outputs with guidance. |
+| **P2** | **AI Accelerated** | You actively use LLMs to speed up your tasks. You validate AI outputs independently and adapt prompts for better results. AI meaningfully reduces the time for standard work. |
+| **P3** | **Agentic AI** | You design and execute multi-step AI workflows. You build reusable prompt structures, apply RAG patterns where relevant, and guide peers on effective AI use. |
+| **P4** | **Integrated AI** | You embed AI capabilities directly into pipelines, dashboards, and team workflows at project level. You create frameworks and lead AI adoption on your engagements. |
+| **P5** | **Governed AI** | You define standards, governance, and strategy for AI use across the practice. You advise leadership and shape how AI evolves in the organisation. |
 
 ---
 
@@ -117,8 +82,8 @@ All AI competency requirements use a five-level proficiency scale aligned to Acc
 
 | Domain | Primary AI Tools |
 |---|---|
-| **Data Analytics** | Power BI with Copilot / Claude · Tableau Cloud with AI · AWS QuickSight with Claude · Fabric Copilot |
-| **Data Engineering** | Snowflake Cortex · GitHub Copilot · Azure AI-ready data services · AWS / GCP AI tools |
+| **Data Analytics** | · Power BI with Copilot / Claude<br>· Tableau Cloud with AI<br>· AWS QuickSight with Claude<br>· Fabric Copilot |
+| **Data Engineering** | · Snowflake Cortex<br>· GitHub Copilot<br>· Azure AI-ready data services<br>· AWS / GCP AI tools |
 
 ---
 
@@ -126,13 +91,13 @@ All AI competency requirements use a five-level proficiency scale aligned to Acc
 
 The platform follows a continuous improvement cycle across five objectives:
 
-| Step | Objective | What It Means |
-|---|---|---|
-| **Increase** | Increase AI proficiency | Move practitioners from Assisted → Agentic → Integrated → Governed across both domains |
-| **Standardize** | Standardize AI usage | Establish consistent AI practices across Data Engineering and Data Analytics roles |
-| **Adopt** | Adopt responsibly | Roll out Copilot, LLMs, and RAG on Snowflake, AWS, Azure, and GCP with proper validation |
-| **Enable** | Enable AI-ready platforms | Build data platforms that power AI-driven delivery in Power BI and Tableau |
-| **Ensure** | Ensure governance | Maintain governance, cost control, and reuse of AI patterns across the practice |
+| Objective | What It Means |
+|---|---|
+| **Increase AI proficiency** | Move practitioners from Assisted → Agentic → Integrated → Governed across both domains |
+| **Standardize AI usage** | Establish consistent AI practices across Data Engineering and Data Analytics roles |
+| **Adopt responsibly** | Roll out Copilot, LLMs, and RAG on Snowflake, AWS, Azure, and GCP with proper validation |
+| **Enable AI-ready platforms** | Build data platforms that power AI-driven delivery in Power BI and Tableau |
+| **Ensure governance** | Maintain governance, cost control, and reuse of AI patterns across the practice |
 
 ---
 
