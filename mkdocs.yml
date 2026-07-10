@@ -34,9 +34,11 @@ markdown_extensions:
   - admonition
   - tables
   - attr_list
+  - pymdownx.details
 
 nav:
   - Home: index.md
+  - AI Competency: ai-competency.md
   - Domains:
     - Overview: domains/index.md
     - Visual Insights (Power BI):
