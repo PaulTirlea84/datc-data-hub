@@ -15,6 +15,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - toc.integrate
     - search.suggest
@@ -37,33 +38,25 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: index.md
-  - AI Competency: ai-competency.md
   - Domains:
-    - Overview: domains/index.md
-    - Visual Insights (Power BI):
-      - Overview: domains/visual-insights/index.md
-      - Associate: domains/visual-insights/associate.md
-      - Analyst: domains/visual-insights/analyst.md
-      - Senior Analyst: domains/visual-insights/senior-analyst.md
-      - Specialist: domains/visual-insights/specialist.md
-      - Associate Manager: domains/visual-insights/associate-manager.md
-      - BI Architect: domains/visual-insights/bi-architect.md
-      - Lead BI Architect: domains/visual-insights/lead-bi-architect.md
-    - Data Engineering:
-      - Overview: domains/data-engineering/index.md
-      - Associate: domains/data-engineering/associate.md
-      - Analyst: domains/data-engineering/analyst.md
-      - Senior Analyst: domains/data-engineering/senior-analyst.md
-      - Specialist: domains/data-engineering/specialist.md
-      - Associate Manager: domains/data-engineering/associate-manager.md
-      - Data Architect: domains/data-engineering/data-architect.md
-      - Lead Data Architect: domains/data-engineering/lead-data-architect.md
-  - Curriculum:
-    - Overview: curriculum/index.md
-    - Competency Map: curriculum/competency-map.md
-  - Assets: assets/registry.md
+    - domains/index.md
+    - Data Engineering: domains/data-engineering/index.md
+    - Data Analytics: domains/data-analytics/index.md
+  - AI Competency:
+    - ai-competency/index.md
+    - AI Data Engineering: ai-competency/data-engineering.md
+    - AI Data Analytics: ai-competency/data-analytics.md
+  - Curriculum: curriculum/index.md
+  - Assets: assets/index.md
+  - Sandbox: working/sandbox.md
 
-copyright: "&copy; 2025 Accenture. All rights reserved."
+extra:
+  generator: false
+
+copyright: "&copy; Copyright © 2026 Accenture. All rights reserved."

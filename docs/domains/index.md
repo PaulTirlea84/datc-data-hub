@@ -1,27 +1,38 @@
-# Domains Overview
+# Domains
 
-The DATC Data Platform (DEVI) is organized into two complementary domains that together cover the full data value chain — from raw ingestion to polished insights.
-
----
-
-## Visual Insights
-
-Visual Insights owns the front-end of the data journey. Teams here develop, migrate, deploy, and maintain commercial and bespoke data-driven insight interfaces that drive adoption and decision making. The domain builds scalable, open BI architecture to provide cross-enterprise visibility and agility for business innovation.
-
-Core Accenture capability areas: **BI Engineering**, **Data Visualization**, **Enterprise BI Architecture & Engineering**, **Vis & Interaction Science**.
-
-Practitioners in Visual Insights work primarily with **Microsoft Power Business Intelligence (BI)** alongside tools such as Grafana, D3.js, Qlik Sense, Google Looker, and IBM Cognos. Key technical skills span BI Architecture Design, Data Modeling Techniques and Methodologies, Data Analysis & Interpretation, Performance & Scalability Design, Data Visualization, and Interaction Design.
+The DATC Data Platform is organised into two complementary domains that together cover the full data value chain — from raw ingestion through to decision-ready insights. Each domain has its own tech stack, career progression, and delivery patterns, but both are essential and deeply connected.
 
 ---
 
-## Data Engineering
+<div class="grid cards" markdown>
 
-Data Engineering owns the back-end infrastructure. Teams here construct, optimize, and maintain the infrastructure for data generation, transformation, and storage. They design pipelines, workflows, and data platforms to facilitate the seamless flow of data across systems — feeding both the Visual Insights domain and client-facing applications.
+-   :material-database-outline: **Data Engineering**
 
-Core Accenture capability areas: **Data Engineering**, **Data Architecture**, **Modern Data Management & Governance**, **Data Eng, Mgmt & Governance**.
+    **Back-end data infrastructure** — pipelines, cloud platforms, data architecture, storage, governance, and AI-ready data layers.
 
-Practitioners in Data Engineering work with platforms and tools including **Apache Spark**, **Apache Kafka**, **Apache Airflow**, **Snowflake**, **Databricks**, **Azure Synapse Analytics**, **AWS Glue**, **Google BigQuery**, **MongoDB**, **Terraform**, and **Docker**. Key technical skills span Big Data Architecture, Data Lakehouse Architecture, Data Mesh, Data Governance, Data Lineage, and Cloud Data Architecture.
+    **Data Engineers** build the foundation that powers analytics, reporting, and AI applications.
+    
+    They own the full ETL/ELT cycle from raw source ingestion through to clean, validated, analytics-ready data.
 
+    **Primary platforms:** Oracle · Snowflake · Azure Data Factory · Databricks · Microsoft Fabric · dbt
+
+    [Go →](data-engineering/index.md){ .md-button .md-button }
+
+-   :material-chart-bar: **Data Analytics**
+
+    **Front-end data delivery** — dashboards, semantic models, reporting, data visualisation, and BI architecture.
+
+    **Data Analyst** turn data into decisions and drive insight across the organisation.
+    
+    They own the reporting layer from requirements through design, build, and production support.
+
+    **Primary platforms:** Power BI · Microsoft Fabric · DAX · Power Query · Tableau · AWS QuickSight
+
+    [Go →](data-analytics/index.md){ .md-button .md-button }
+
+
+</div>
 ---
 
-Use the left navigation to explore individual domains and their career level pages.
+!!! info "How the domains connect"
+    Data Engineering builds the data layers that Analytics consumes. A semantic model in Power BI is only as good as the pipeline feeding it. Both domains collaborate on data model alignment, refresh strategy, and AI-ready data architecture.
