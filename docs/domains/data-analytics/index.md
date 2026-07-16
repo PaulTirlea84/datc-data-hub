@@ -296,7 +296,7 @@ REST APIs (Jira, SonarQube, GenWizard) · SharePoint · Salesforce · SAP · Ser
 | **DP-900** — Azure Data Fundamentals | Fundamentals | Analysts moving toward cloud | L11 optional → L10 target |
 | **AI-901** — Azure AI Fundamentals *(replaces AI-900, retired June 2026)* | Fundamentals | Anyone exploring AI on Azure | L10 optional → L9 target |
 | **DP-600** — Fabric Analytics Engineer Associate | Associate | Engineers on Microsoft Fabric | L9 optional → L8 mandatory |
-| **PL-200** — Power Platform Functional Consultant *(retiring Aug 31 2026)* | Associate | Architects across Power Platform | L8 mandatory — obtain before Aug 2026 |
+| **PL-200** — Power Platform Functional Consultant *(retiring Aug 31 2026)* | Associate | Architects across Power Platform | L10 optional — obtain before Aug 2026 |
 
 
 ---
