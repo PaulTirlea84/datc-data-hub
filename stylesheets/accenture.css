@@ -1,0 +1,79 @@
+/* ═══════════════════════════════════════════════════════════════════
+   Accenture brand overrides for MkDocs Material
+   Primary: #A100FF  ·  Black: #000  ·  Font: Graphik / system-ui
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Brand colour tokens ─────────────────────────────────────────── */
+:root {
+  --accenture-purple:       #A100FF;
+  --accenture-purple-dark:  #7300C0;
+  --accenture-purple-light: #C24DFF;
+  --accenture-black:        #000000;
+}
+
+/* ── Override Material primary / accent for both colour schemes ──── */
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:              #A100FF;
+  --md-primary-fg-color--light:       #C24DFF;
+  --md-primary-fg-color--dark:        #7300C0;
+  --md-accent-fg-color:               #A100FF;
+  --md-accent-fg-color--transparent:  rgba(161, 0, 255, 0.1);
+}
+
+/* ── Navigation header ───────────────────────────────────────────── */
+.md-header {
+  background-color: #A100FF;
+}
+
+/* ── Footer background ───────────────────────────────────────────── */
+.md-footer,
+.md-footer-nav {
+  background: #1a1a1a;
+}
+.md-footer-meta {
+  background: #000 !important;
+}
+
+/* ── Accenture brand strip (injected by overrides/main.html) ─────── */
+.datc-brand-footer {
+  background: #000;
+  border-top: 2px solid #A100FF;
+  padding: 0.65rem 1rem;
+}
+
+.datc-brand-footer__inner {
+  max-width: 61rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+.datc-brand-footer__logo {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.datc-brand-footer__wordmark {
+  font-family: "Graphik", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.datc-brand-footer__divider {
+  opacity: 0.35;
+  font-size: 0.85rem;
+}
+
+.datc-brand-footer__team {
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+

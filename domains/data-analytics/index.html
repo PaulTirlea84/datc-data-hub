@@ -1,0 +1,1669 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Learning paths and competency frameworks for the DATC Data Platform (DEVI)">
+      
+      
+        <meta name="author" content="DATC Data Platform Team">
+      
+      
+      
+        <link rel="prev" href="../data-engineering/">
+      
+      
+        <link rel="next" href="../../ai-competency/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/accenture-favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Data Analytics - DATC Data Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/accenture.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-analytics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="DATC Data Hub" class="md-header__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DATC Data Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data Analytics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Domains
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ai-competency/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  AI Competency
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../curriculum/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Curriculum
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../assets/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Assets
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../working/sandbox/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Sandbox
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DATC Data Hub" class="md-nav__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    DATC Data Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domains
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domains
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-data-analytics-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Data Analytics Does
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tech-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tech Stack
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tech Stack">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Primary Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#languages-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Languages &amp; Skills
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connectors-integrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connectors &amp; Integrations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level Profiles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#certifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Certifications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competency-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Competency Matrix
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ai-competency/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Competency
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Competency
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai-competency/data-engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai-competency/data-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../curriculum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Curriculum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../working/sandbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sandbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="data-analytics">Data Analytics</h1>
+<p>The <strong>Data Analytics</strong> domain covers front-end data delivery within the DATC Data Platform. Practitioners in this domain develop, migrate, deploy, and maintain data-driven insight interfaces that drive adoption and decision-making. They build scalable BI architecture, translate complex data into actionable stories, and integrate security and data privacy into reporting systems.</p>
+<hr />
+<h2 id="what-data-analytics-does">What Data Analytics Does</h2>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>BI Engineering</strong></p>
+<hr />
+<p>Develop and maintain commercial and bespoke knowledge engine interfaces. Build open BI architecture for cross-enterprise visibility. Design and implement scalable reporting systems from requirements through production support.</p>
+</li>
+<li>
+<p><strong>Data Visualization</strong></p>
+<hr />
+<p>Create compelling visual representations of complex data. Translate raw data into dashboards and insights that enhance understanding and aid decision-making. Design UX and interaction patterns that drive report adoption.</p>
+</li>
+<li>
+<p><strong>Enterprise BI Architecture</strong></p>
+<hr />
+<p>Design and implement systems and frameworks for collecting, managing, analyzing, and visualizing data at enterprise scale. Build robust, maintainable infrastructure to support BI initiatives across organizations.</p>
+</li>
+<li>
+<p><strong>Semantic Modeling</strong></p>
+<hr />
+<p>Build and govern the semantic layer between raw data and front-end reports. Define KPI frameworks, metric hierarchies, Row Level Security, and data governance within the BI layer.</p>
+</li>
+</ul>
+</div>
+<hr />
+<h2 id="tech-stack">Tech Stack</h2>
+<h3 id="primary-tools">Primary Tools</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Power BI Desktop</strong></td>
+<td>Core development — reports, data models, DAX, Power Query</td>
+</tr>
+<tr>
+<td><strong>Power BI Service</strong></td>
+<td>Deployment, workspaces, app publishing, scheduled refresh</td>
+</tr>
+<tr>
+<td><strong>Microsoft Fabric</strong></td>
+<td>Modern lakehouse + BI platform — Dataflows Gen2, semantic models, OneLake</td>
+</tr>
+<tr>
+<td><strong>DAX Studio</strong></td>
+<td>External DAX query analyzer — optimization and profiling</td>
+</tr>
+<tr>
+<td><strong>Tabular Editor</strong></td>
+<td>External model editor — calculation groups, batch operations, BPA rules</td>
+</tr>
+<tr>
+<td><strong>ALM Toolkit</strong></td>
+<td>Dataset comparison and schema diffing for deployment pipelines</td>
+</tr>
+<tr>
+<td><strong>Tableau</strong></td>
+<td>Alternative BI — Danubia DA (10+ certified); Explain Data, Forecasting, AI analysis</td>
+</tr>
+<tr>
+<td><strong>AWS QuickSight</strong></td>
+<td>BI on AWS stack with Claude integration</td>
+</tr>
+</tbody>
+</table>
+<h3 id="languages-skills">Languages &amp; Skills</h3>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DAX</td>
+<td>Universal measures, calculated tables, calculation groups</td>
+</tr>
+<tr>
+<td>Power Query</td>
+<td>transformations, custom functions, query folding</td>
+</tr>
+<tr>
+<td>SQL</td>
+<td>querying, validation, source-layer alignment</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>ETL scripts, REST API pipelines, automation</td>
+</tr>
+<tr>
+<td>VBA</td>
+<td>Excel automation and legacy integrations</td>
+</tr>
+</tbody>
+</table>
+<h3 id="connectors-integrations">Connectors &amp; Integrations</h3>
+<p>REST APIs (Jira, SonarQube, GenWizard) · SharePoint · Salesforce · SAP · ServiceNow · Azure Synapse / CosmosDB · Databricks · Redshift · Outlook / Teams</p>
+<hr />
+<h2 id="level-profiles">Level Profiles</h2>
+<blockquote>
+<p>Each level: <strong>Responsibilities</strong> → <strong>Core Skills</strong> → <strong>Learning Path</strong>. PL-300 is mandatory from L11 upward.</p>
+</blockquote>
+<details class="note" open="open">
+<summary>Associate (L12) — Junior Developer</summary>
+<p><strong>Focus:</strong> understand the team, the product, and basic tooling. Execute with close guidance from a mentor.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Understand the product end-to-end from an end-user perspective</li>
+<li>Learn how the team operates — procedures, roles, functions</li>
+<li>Understand business requirements and existing report logic</li>
+<li>Update existing DAX measures, calculated columns, and metric definitions from specs</li>
+<li>Apply Power Query transformations on existing queries under guidance</li>
+<li>Connect to standard sources (SharePoint, OneDrive, Excel)</li>
+<li>Test data accuracy between source and report outputs</li>
+<li>Develop reports and dashboards according to provided design</li>
+<li>Publish reports to Power BI Service; configure basic scheduled refresh</li>
+<li>Update data dictionaries and desktop procedures</li>
+<li>Participate in team meetings; write Jira stories under guidance</li>
+<li>Diagnose basic technical issues in testing and production</li>
+</ul>
+<p><strong>Core Skills</strong></p>
+<ul>
+<li>Power BI Desktop: navigation, report canvas, standard visuals</li>
+<li>Power Query: connect, load, basic transformations (rename, filter, change type)</li>
+<li>DAX basics: SUM, COUNT, CALCULATE, simple calculated columns</li>
+<li>SharePoint / OneDrive as data sources</li>
+<li>Power BI Service: publish, schedule refresh, share reports</li>
+<li>Basic data types and data validation</li>
+<li>Reading and understanding existing data models</li>
+</ul>
+<p><strong>Learning Path</strong></p>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Training</th>
+<th>Platform</th>
+<th>Target Cert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mandatory</strong></td>
+<td>Power BI Data Analyst — PL-300 Path</td>
+<td>Pluralsight / MS Learn</td>
+<td><strong>PL-300</strong></td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Power BI Data Essentials</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Business Communications with Data</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>SQL Essentials / Getting Started with MySQL</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Data Visualization Literacy</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Data Governance Literacy</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Azure Fundamentals — AZ-900</td>
+<td>MS Learn</td>
+<td>AZ-900</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="note">
+<summary>Analyst (L11) — Mid Developer</summary>
+<p><strong>Focus:</strong> deliver independently on standard tasks; start owning report areas; contribute to documentation.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Write DAX measures and M transformations from scratch for new requirements</li>
+<li>Understand business requirements and process flow; translate to technical specifications</li>
+<li>Build new report pages and visuals independently, following design patterns</li>
+<li>Extend existing data models: new tables, relationships, additional sources</li>
+<li>Handle multiple source types (SQL, APIs, SharePoint, Databricks)</li>
+<li>Manage gateway connections and refresh rules</li>
+<li>Write functional and technical documentation; create and update data dictionaries</li>
+<li>Conduct data quality checks across source → model → visual layer</li>
+<li>Deploy reports via DevOps / ALM pipelines under senior guidance</li>
+<li>Participate in requirements workshops; ask clarifying questions</li>
+<li>Support senior developers on complex model and DAX changes</li>
+<li>Help guide associate-level team members when possible</li>
+</ul>
+<p><strong>Core Skills</strong></p>
+<ul>
+<li>DAX intermediate: FILTER, RELATED, CALCULATE with complex predicates, basic time intelligence (SAMEPERIODLASTYEAR, DATESYTD)</li>
+<li>Power Query / M: merge, append, custom columns, conditional logic, M formula basics</li>
+<li>Data modeling: star schema, 1:N and M:M relationships, calculated tables</li>
+<li>Row Level Security: static RLS setup and testing</li>
+<li>Power BI Service: workspaces, app publishing, sensitivity labels</li>
+<li>DevOps / ALM: understanding deployment pipelines; basic promotion flow</li>
+<li>SQL: SELECT, JOIN, WHERE, GROUP BY — querying source databases</li>
+<li>Technical documentation and metrics definitions</li>
+</ul>
+<p><strong>Learning Path</strong></p>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Training</th>
+<th>Platform</th>
+<th>Target Cert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mandatory</strong></td>
+<td>PL-300 — obtain if not yet certified</td>
+<td>MS Learn / Pluralsight</td>
+<td><strong>PL-300</strong></td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Power BI for Admins Path</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Data Architecture: Foundations</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Developing SQL Server Databases</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Report and Dashboard Creation — MS Docs</td>
+<td>MS Learn</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Power BI DAX Functions Full Course</td>
+<td>YouTube / SQLBI</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Azure Data Fundamentals — DP-900</td>
+<td>MS Learn</td>
+<td>DP-900</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="note">
+<summary>Senior Analyst (L10) — Senior Developer</summary>
+<p><strong>Focus:</strong> fully own report lifecycle; estimate effort; start leading smaller sub-scopes and mentoring.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Independently manage full report lifecycle: requirements → design → build → test → production support</li>
+<li>Analyze business requirements; recommend new KPIs and report structures</li>
+<li>Design data models end-to-end: star schema, semantic layer, calculated tables</li>
+<li>Evaluate KPIs; translate complex business logic into robust, maintainable DAX</li>
+<li>Write and maintain M transformations for complex multi-source scenarios</li>
+<li>Align Data Source and ETL design within Power BI context</li>
+<li>Create and own implementation plans with effort/cost estimation and timelines</li>
+<li>Deploy and manage deployment pipelines (ALM, DevOps)</li>
+<li>Implement Row Level Security (static and dynamic) and workspace access management</li>
+<li>Write client presentations, data dictionaries, process documentation</li>
+<li>Perform preventive maintenance and integrate configuration changes</li>
+<li>Mentor Analyst and Associate-level developers; provide daily guidance</li>
+<li>Integrate data across application layers, subsystems, and data sources</li>
+<li>Foresee issues ahead of time; design around them or resolve before they surface</li>
+</ul>
+<p><strong>Core Skills</strong></p>
+<ul>
+<li>Advanced DAX: calculation groups, field parameters, dynamic titles, RANKX, TOPN, VAR patterns</li>
+<li>Advanced Power Query / M: custom functions, error handling, query folding awareness</li>
+<li>Semantic model design: aggregations, hierarchies, bi-directional filters (when to use / avoid)</li>
+<li>Performance optimization: model size, Vertipaq Analyzer, DAX query plans</li>
+<li>DevOps / ALM: manage full deployment pipeline, environment promotion, workspace roles</li>
+<li>REST API connectivity: paginated endpoints, custom connectors basics</li>
+<li>Dynamic RLS: USERNAME(), OLS</li>
+<li>Azure basics: Azure SQL, Synapse serverless views as PBI source</li>
+<li>Effort estimation and project planning</li>
+</ul>
+<p><strong>Learning Path</strong></p>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Training</th>
+<th>Platform</th>
+<th>Target Cert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mandatory</strong></td>
+<td>PL-300 — must be certified</td>
+<td>MS Learn</td>
+<td><strong>PL-300</strong></td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Azure Data Fundamentals — DP-900</td>
+<td>MS Learn / Pluralsight</td>
+<td><strong>DP-900</strong></td>
+</tr>
+<tr>
+<td>Core</td>
+<td>DAX by Real-World Problems</td>
+<td>SQLBI</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Power Query Deep Dive</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>DevOps / ALM Pipeline Management</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Azure AI Fundamentals — AI-901</td>
+<td>MS Learn</td>
+<td>AI-901</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Python Data Essentials</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Databricks Getting Started</td>
+<td>Databricks Academy</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="note">
+<summary>Specialist (L9) — Lead Developer</summary>
+<p><strong>Focus:</strong> lead reporting ecosystems end-to-end; own architecture and design; coordinate teams and stakeholders.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Design and own large-scale reporting ecosystems (30+ sources, 60+ reports)</li>
+<li>Define KPI frameworks, SLA methodologies, and data governance standards</li>
+<li>Lead solution design and business analysis alongside development</li>
+<li>Architect semantic models end-to-end — calculation groups, field parameters, dynamic axes, bookmarks</li>
+<li>Migrate legacy systems (Excel, flat files, PostgreSQL) to Power BI / Microsoft Fabric</li>
+<li>Build automated REST API pipelines (paginated endpoints, Jira, ServiceNow, GenWizard)</li>
+<li>Coordinate with data engineering / ingestion teams; align platforms with reporting layer</li>
+<li>Conduct performance optimization at architectural, DAX, and model-compression level</li>
+<li>Manage stakeholder alignment, change requests, and monthly business validations</li>
+<li>Run estimation and scoping on new projects; contribute to pre-sales</li>
+<li>Produce knowledge-transfer documentation for long-term maintainability</li>
+<li>Introduce Power Apps / Power Automate forms to replace manual data entry</li>
+<li>Lead and mentor the full team; run stand-ups and 1-2-1s</li>
+<li>Monitor team chargeability and project delivery accuracy</li>
+</ul>
+<p><strong>Core Skills</strong></p>
+<ul>
+<li>Full Power BI architecture: gateway strategy, dataset reuse, composite models, DirectQuery vs. Import trade-offs</li>
+<li>Microsoft Fabric: Lakehouse, Dataflows Gen2, semantic model in Fabric, OneLake</li>
+<li>API integrations: Python or Power Query for REST APIs, pagination, auth flows (OAuth, API Key)</li>
+<li>Advanced DAX: DETAILROWS, INFO functions, calculation groups, dynamic format strings</li>
+<li>Stakeholder management: requirements workshops, change management, monthly validations</li>
+<li>Power Apps + Power Automate: form-driven data entry flows replacing manual Excel/email processes</li>
+<li>Leadership: estimation, mentoring, chargeability monitoring, 1-2-1s, stand-ups</li>
+</ul>
+<p><strong>Learning Path</strong></p>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Training</th>
+<th>Platform</th>
+<th>Target Cert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mandatory</strong></td>
+<td>PL-300 — must be certified</td>
+<td>—</td>
+<td><strong>PL-300</strong></td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Azure AI Fundamentals — AI-901</td>
+<td>MS Learn</td>
+<td><strong>AI-901</strong></td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Microsoft Fabric — DP-600 Intro Path</td>
+<td>MS Learn / Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Python for Data Analysis</td>
+<td>Pluralsight</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>TQ Agentic AI Training (FY26 priority)</td>
+<td>Internal / TQ</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Implementing Analytics Solutions — DP-600</td>
+<td>MS Learn</td>
+<td>DP-600</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Databricks Data Analyst Associate</td>
+<td>Databricks Academy</td>
+<td>Databricks DA</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Scrum Master</td>
+<td>Scrum.org</td>
+<td>PSM I</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="note">
+<summary>Associate Manager (L8) — BI / Data Architect</summary>
+<p><strong>Focus:</strong> lead beyond delivery — architecture vision, people, budget, clients, domain strategy.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Lead activities across multiple projects and teams simultaneously</li>
+<li>Own team allocation, annual talent discussions, one-sliders</li>
+<li>Drive new project estimations, pre-sales discussions, and client visits</li>
+<li>Define and own end-to-end analytics architecture vision for the team</li>
+<li>Set and evolve technical standards and best practices for the domain</li>
+<li>Act as escalation point for complex technical and stakeholder challenges</li>
+<li>Drive certification roadmap and training strategy across all levels</li>
+<li>Manage monthly budget updates and project status reporting</li>
+<li>Collaborate with platform leads on domain strategy and upskilling priorities</li>
+<li>Build external client relationships and develop domain expertise visibility</li>
+<li>Represent the team in cross-domain governance and platform meetings</li>
+</ul>
+<p><strong>Core Skills</strong></p>
+<ul>
+<li>End-to-end analytics architecture: Fabric, Azure Synapse, Power BI Premium / Fabric capacity planning</li>
+<li>Enterprise governance: tenant settings, sensitivity labels, data lineage, audit logs, Purview</li>
+<li>Platform strategy: tool selection trade-offs (Power BI vs. Fabric vs. Azure Synapse Analytics)</li>
+<li>Power Platform breadth: Power Apps model-driven apps, Power Automate cloud flows, Copilot Studio basics</li>
+<li>Pre-sales: solution scoping, effort estimation, proposal writing, client workshops</li>
+<li>People leadership: talent reviews, one-sliders, coaching, career path guidance</li>
+<li>Budget and delivery: Myte tracking, monthly status reporting, chargeability management</li>
+</ul>
+<p><strong>Learning Path</strong></p>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Training</th>
+<th>Platform</th>
+<th>Target Cert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mandatory</strong></td>
+<td>PL-300 — must be certified</td>
+<td>—</td>
+<td><strong>PL-300</strong></td>
+</tr>
+<tr>
+<td><strong>Mandatory</strong></td>
+<td>Implementing Analytics Solutions — DP-600</td>
+<td>MS Learn / Pluralsight</td>
+<td><strong>DP-600</strong></td>
+</tr>
+<tr>
+<td><strong>Mandatory</strong></td>
+<td>Power Platform Functional Consultant — PL-200 <em>(retiring Aug 31 2026 — plan ahead)</em></td>
+<td>MS Learn</td>
+<td><strong>PL-200</strong></td>
+</tr>
+<tr>
+<td>Core</td>
+<td>DP-900 + AI-901 (if not yet obtained)</td>
+<td>MS Learn</td>
+<td>DP-900 · AI-901</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Cloud architecture patterns (Azure / Fabric)</td>
+<td>Pluralsight / A Cloud Guru</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Core</td>
+<td>Leadership &amp; Scrum Master</td>
+<td>Scrum.org</td>
+<td>PSM I</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Databricks Data Analyst Associate</td>
+<td>Databricks Academy</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr />
+<h2 id="certifications">Certifications</h2>
+<table>
+<thead>
+<tr>
+<th>Certification</th>
+<th>Level</th>
+<th>Who It's For</th>
+<th>When to Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PL-300</strong> — Power BI Data Analyst Associate</td>
+<td>Associate</td>
+<td>All DA practitioners</td>
+<td>L12 start → L11 mandatory</td>
+</tr>
+<tr>
+<td><strong>DP-900</strong> — Azure Data Fundamentals</td>
+<td>Fundamentals</td>
+<td>Analysts moving toward cloud</td>
+<td>L11 optional → L10 target</td>
+</tr>
+<tr>
+<td><strong>AI-901</strong> — Azure AI Fundamentals <em>(replaces AI-900, retired June 2026)</em></td>
+<td>Fundamentals</td>
+<td>Anyone exploring AI on Azure</td>
+<td>L10 optional → L9 target</td>
+</tr>
+<tr>
+<td><strong>DP-600</strong> — Fabric Analytics Engineer Associate</td>
+<td>Associate</td>
+<td>Engineers on Microsoft Fabric</td>
+<td>L9 optional → L8 mandatory</td>
+</tr>
+<tr>
+<td><strong>PL-200</strong> — Power Platform Functional Consultant <em>(retiring Aug 31 2026)</em></td>
+<td>Associate</td>
+<td>Architects across Power Platform</td>
+<td>L10 optional — obtain before Aug 2026</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="competency-matrix">Competency Matrix</h2>
+<blockquote>
+<p>○ not required · ◑ awareness · ● proficient · ★ expert / owns it</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Competency</th>
+<th style="text-align: center;">L12 Associate</th>
+<th style="text-align: center;">L11 Analyst</th>
+<th style="text-align: center;">L10 Senior Analyst</th>
+<th style="text-align: center;">L9 Specialist</th>
+<th style="text-align: center;">L8 Associate Manager</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Power BI Development</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>DAX &amp; M Language</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>Data Modeling &amp; Semantic Layer</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>Data Ingestion &amp; ETL (Power Query)</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>SQL &amp; Database Querying</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+</tr>
+<tr>
+<td>Cloud &amp; Modern Data Stack (Azure / Fabric)</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>API Integrations &amp; Automation</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+</tr>
+<tr>
+<td>Governance, RLS &amp; Security</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>Architecture &amp; Solution Design</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>Stakeholder Management</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>Estimation &amp; Project Planning</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>Mentoring &amp; Team Leadership</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">★</td>
+<td style="text-align: center;">★</td>
+</tr>
+<tr>
+<td>Pre-sales &amp; Client Development</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">●</td>
+</tr>
+<tr>
+<td>Budget &amp; Delivery Management</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">○</td>
+<td style="text-align: center;">◑</td>
+<td style="text-align: center;">★</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+  
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; Copyright © 2026 Accenture. All rights reserved.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="datc-brand-footer">
+    <div class="datc-brand-footer__inner">
+      <img src="../../assets/accenture-logo.png" class="datc-brand-footer__logo" alt="Accenture" />
+      <span class="datc-brand-footer__wordmark">accenture</span>
+      <span class="datc-brand-footer__divider">|</span>
+      <span class="datc-brand-footer__team">DATC Data Hub</span>
+    </div>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

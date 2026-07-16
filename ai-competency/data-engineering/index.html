@@ -1,0 +1,999 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Learning paths and competency frameworks for the DATC Data Platform (DEVI)">
+      
+      
+        <meta name="author" content="DATC Data Platform Team">
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../data-analytics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/accenture-favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>AI Data Engineering - DATC Data Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/accenture.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-data-engineering" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="DATC Data Hub" class="md-header__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DATC Data Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Data Engineering
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../domains/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Domains
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  AI Competency
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../curriculum/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Curriculum
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../assets/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Assets
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../working/sandbox/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Sandbox
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DATC Data Hub" class="md-nav__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    DATC Data Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../domains/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domains
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domains
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/data-engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/data-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Competency
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Competency
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-competency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Competency
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-role-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Role Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-trainings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Trainings
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../curriculum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Curriculum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../working/sandbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sandbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ai-data-engineering">AI Data Engineering</h1>
+<h2 id="ai-competency">AI Competency</h2>
+<p>AI-enabled Data Engineers prepare, process, and manage data for analytics, reporting, and AI applications. They are the <strong>architects and builders of the enterprise data ecosystem that powers AI</strong> — designing, orchestrating, and optimising the flow of high-quality, secure, and reliable data needed for GenAI solutions, especially Retrieval-Augmented Generation (RAG).</p>
+<p>Their work spans ingestion, modelling, governance, data readiness, and the integration of modern database technologies including vector stores. By ensuring clean, trustworthy data pipelines, they enable downstream AI teams — LLM developers, application engineers, and data scientists — to deliver accurate and scalable AI solutions.</p>
+<p><strong>Primary AI tools:</strong> GitHub Copilot · Snowflake Cortex · Azure data services · AWS / GCP AI tools</p>
+<p><strong>Key responsibilities:</strong></p>
+<ul>
+<li>Design, build, and maintain robust ETL/ELT pipelines for structured and unstructured data</li>
+<li>Automate ingestion from enterprise sources: SharePoint, Confluence, file systems, APIs, databases</li>
+<li>Implement vector databases and embedding pipelines for semantic search and AI retrieval</li>
+<li>Establish data quality, freshness, lineage, and observability frameworks</li>
+<li>Ensure data readiness for AI: validated, complete, compliant, and trustworthy</li>
+<li>Build chunking, embedding, and retrieval evaluation pipelines for RAG applications</li>
+<li>Contribute to architecture reviews, design patterns, and reusable engineering frameworks</li>
+</ul>
+<details class="note">
+<summary>P1 — AI Assisted</summary>
+<p>Uses <strong>GitHub Copilot</strong> to generate basic SQL and Python transformation code, reducing time on standard scripting tasks. Monitors and maintains existing data pipelines under guidance from senior engineers — reviewing logs, handling basic errors, and escalating issues.
+Understands core data warehousing concepts: ETL stages, layer architecture (staging → core → semantic), data validation, and reconciliation. Begins learning about vector databases and embeddings as the foundation for AI-ready data layers. Validates all AI-generated code with senior guidance before applying it to any environment.
+Uses Copilot suggestions as a learning accelerant, not a replacement for understanding the underlying logic. Can explain what generated code does and why — cannot yet independently assess whether it is correct for the business requirement.
+<strong>Typical tasks at P1:</strong> generating SQL SELECT/JOIN scripts with Copilot, maintaining pipeline monitoring scripts, writing data validation queries with AI assistance, documenting pipeline logic.</p>
+</details>
+<details class="note">
+<summary>P2 — AI Accelerated</summary>
+<p>Leverages <strong>GitHub Copilot</strong> and <strong>Snowflake Cortex Code (CoCo)</strong> as regular tools in the development workflow — automating SQL transformations, data validations, and ingestion routine scripting. Builds simple pipelines for new data sources with limited supervision: ADF pipelines, Python ETL scripts, basic Snowflake loads.
+Implements standard data quality checks (row counts, hash validation, null checks) and reconciliation logic. Begins working with vector databases and embedding pipeline concepts, understanding how unstructured data is prepared for AI retrieval. Validates AI outputs independently and can explain the logic of generated code.
+Uses Snowflake Cortex for AI-native SQL tasks. Can modify and adapt AI-generated code to meet specific requirements without full rewrites. Adapts prompts to produce more accurate and context-appropriate results — understands that prompt quality directly affects output quality.
+<strong>Typical tasks at P2:</strong> building ADF or Python pipelines for new sources independently, using Cortex CoCo for Snowflake SQL automation, writing data quality frameworks, beginning to work with basic embedding API calls.</p>
+</details>
+<details class="note">
+<summary>P3 — Agentic AI</summary>
+<p>Designs and executes <strong>multi-step agentic data workflows</strong> — for example: ingest raw documents → chunk and clean text → generate embeddings → store in vector DB → validate retrieval quality → update metadata. Builds complex, scalable pipelines for both structured (SQL/DWH) and unstructured (documents, PDFs, semi-structured) data sources.
+Constructs full <strong>RAG-ready data foundations</strong>: intelligent chunking strategies, embedding pipelines with provider selection (Azure OpenAI, Snowflake Cortex), metadata enrichment, retrieval evaluation layers. Ensures all data layers are validated, governed, and AI-compliant for downstream AI engineering and application teams.
+Uses <strong>Snowflake Cortex for LLMs, RAG, and Search</strong> directly inside the data warehouse. Leverages AWS and GCP AI data services where applicable. Coaches and guides peers on AI-augmented engineering patterns — can run technical workshops or pair sessions.
+<strong>Typical tasks at P3:</strong> building end-to-end RAG pipelines, designing chunking logic for different document types, constructing embedding and retrieval evaluation frameworks, leading technical coaching sessions on agentic patterns for the team.</p>
+</details>
+<details class="note">
+<summary>P4 — Integrated AI</summary>
+<p>Leads <strong>architecture design for major AI data initiatives</strong> — RAG platforms at scale, enterprise semantic layers, AI data products used in production. Defines retrieval performance targets and optimises chunking, embedding, and indexing strategies for latency, accuracy, and cost.
+Integrates AI tooling (Cortex, Copilot, LangChain-adjacent patterns) as a <strong>standard part of team delivery</strong> — embedded in pipeline templates, coding standards, and CI/CD workflows. Creates reusable automation frameworks and engineering best practices for the domain. Mentors and coaches specialist-level engineers on AI-augmented patterns.
+Collaborates with application and AI teams to ensure data layers meet latency, accuracy, and scale requirements for production GenAI applications. Owns the technical design review process for AI data workloads on the team. Creates governance documentation for AI-generated pipelines in regulated environments.
+<strong>Typical tasks at P4:</strong> leading RAG platform design, defining team-wide AI tooling standards, reviewing architecture proposals from seniors, presenting data platform AI strategy to clients, coaching multiple engineers simultaneously.</p>
+</details>
+<details class="note">
+<summary>P5 — Governed AI</summary>
+<p>Defines <strong>enterprise-wide AI data engineering strategy</strong>, architectural standards, and governance frameworks for the organisation. Shapes the vision for data architecture, quality, and compliance across AI workloads — including policies for embedding model selection, data retention, PII handling in vector stores, and retrieval audit trails.
+Acts as the <strong>recognised authority and final escalation point</strong> on data engineering for AI and RAG at the practice level. Advises leadership on technology directions, platform decisions, and investment priorities for the AI data ecosystem. Drives organisation-wide transformation: new capabilities, new tools, new talent pipelines for the evolving AI data stack.
+Represents the team externally in thought leadership, community of practice, and client advisory roles. Shapes Accenture's position on AI data engineering standards and contributes to global methodology development. At this level, the focus shifts from building to defining the conditions under which others can build responsibly and at scale.
+<strong>Typical tasks at P5:</strong> advising clients on AI data platform strategy, defining practice-wide governance policies, representing the team in global Data &amp; AI communities, shaping hiring and capability-building strategy for the domain.</p>
+</details>
+<h2 id="ai-role-details">AI Role Details</h2>
+<p>Builds and governs the data infrastructure that powers AI — pipelines, cloud platforms, semantic layers, and RAG-ready data foundations.</p>
+<details class="abstract">
+<summary>AI Data Engineering — Career Progression</summary>
+<ul>
+<li><strong>Associate</strong> — foundational SQL, Python, and pipeline work under guidance. Uses GitHub Copilot for code generation with senior validation. Learns DWH layer concepts and basic data quality patterns · <strong>P1</strong></li>
+<li><strong>Analyst</strong> — independent ETL delivery, data quality ownership, AI-assisted development. Builds pipelines for new sources. Uses Cortex CoCo and Copilot regularly. Validates AI output independently · <strong>P1–P2</strong></li>
+<li><strong>Senior Analyst</strong> — owns complex pipelines end-to-end, introduces AI tooling into team workflows. Begins building embedding pipelines and working with vector databases · <strong>P2–P3</strong></li>
+<li><strong>Specialist</strong> — deep expert in cloud architecture and DWH. Sets engineering standards. Designs RAG-ready data foundations. Builds full chunking-embedding-retrieval pipelines. Coaches peers · <strong>P3</strong></li>
+<li><strong>Associate Manager</strong> — leads the engineering stream, owns delivery and platform decisions. Embeds AI tooling into team standards and CI/CD. Owns architecture for AI data initiatives · <strong>P3–P4</strong></li>
+<li><strong>Manager</strong> — sets technical direction, drives AI adoption strategy, owns domain standards. Advises leadership on platform strategy. Represents team in external forums · <strong>P4</strong></li>
+<li><strong>Architect</strong> — defines enterprise AI data engineering strategy and standards. Shapes vision for data architecture, governance, and quality. Acts as recognised authority · <strong>P5</strong></li>
+</ul>
+</details>
+<h2 id="ai-trainings">AI Trainings</h2>
+<table>
+<thead>
+<tr>
+<th>Proficiency</th>
+<th>Training</th>
+<th>Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P1</td>
+<td>GitHub Copilot with Python</td>
+<td>AI pair programming for Python-based data pipelines</td>
+</tr>
+<tr>
+<td>P1–P2</td>
+<td>Get started with data engineering on Azure</td>
+<td>Azure data engineering foundations and AI-ready pipelines</td>
+</tr>
+<tr>
+<td>P1–P3</td>
+<td>AWS Training — Digital Training</td>
+<td>AWS data and AI services (official AWS training)</td>
+</tr>
+<tr>
+<td>P1–P3</td>
+<td>Google Cloud Data Engineering &amp; Analytics</td>
+<td>Data and AI pipelines on Google Cloud</td>
+</tr>
+<tr>
+<td>P1–P3</td>
+<td>Agentic AI Deep Dive Learning Level 4A for Data Engineers</td>
+<td>Agentic AI patterns for data engineering workloads</td>
+</tr>
+<tr>
+<td>P2</td>
+<td>Snowflake Cortex Code (CoCo)</td>
+<td>AI-native coding inside Snowflake for SQL and pipelines</td>
+</tr>
+<tr>
+<td>P3</td>
+<td>Snowflake Cortex for LLMs, RAG, and Search</td>
+<td>Build RAG and LLM-powered search directly in Snowflake</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p>This list will be expanded as the platform matures and new tools are validated.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+  
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; Copyright © 2026 Accenture. All rights reserved.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="datc-brand-footer">
+    <div class="datc-brand-footer__inner">
+      <img src="../../assets/accenture-logo.png" class="datc-brand-footer__logo" alt="Accenture" />
+      <span class="datc-brand-footer__wordmark">accenture</span>
+      <span class="datc-brand-footer__divider">|</span>
+      <span class="datc-brand-footer__team">DATC Data Hub</span>
+    </div>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
