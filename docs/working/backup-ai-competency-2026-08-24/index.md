@@ -55,10 +55,10 @@ Both domains share the same career level framework. Each level has a defined AI 
 | Career Level | Career Role | Proficiency Target | 
 |:---:|---|:---:|
 | **L12** | Associate | P1 | 
-| **L11** | Analyst | P2 | 
-| **L10** | Senior Analyst | P3 | 
+| **L11** | Analyst | P1 | 
+| **L10** | Senior Analyst | P2 | 
 | **L9** | Specialist | P3 | 
-| **L8** | Associate Manager | P4 | 
+| **L8** | Associate Manager | P3 | 
 | **L7** | Manager | P4 | 
 | **✦** | Architect | P5 | 
 

@@ -16,7 +16,7 @@ The DATC Data Platform is organised into two complementary domains that together
 
     **Primary platforms:** Oracle · Snowflake · Azure Data Factory · Databricks · Microsoft Fabric · dbt
 
-    [Go →](data-engineering/index.md){ .md-button .md-button }
+    [Go →](data-engineering.md){ .md-button .md-button }
 
 -   :material-chart-bar: **Data Analytics**
 
@@ -28,7 +28,7 @@ The DATC Data Platform is organised into two complementary domains that together
 
     **Primary platforms:** Power BI · Microsoft Fabric · DAX · Power Query · Tableau · AWS QuickSight
 
-    [Go →](data-analytics/index.md){ .md-button .md-button }
+    [Go →](data-analytics.md){ .md-button .md-button }
 
 
 </div>

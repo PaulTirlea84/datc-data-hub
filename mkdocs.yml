@@ -24,6 +24,9 @@ theme:
 extra_css:
   - stylesheets/accenture.css
 
+extra_javascript:
+  - js/competency-tracker.js
+
 plugins:
   - search
 
@@ -46,12 +49,12 @@ nav:
   - Home: index.md
   - Domains:
     - domains/index.md
-    - Data Engineering: domains/data-engineering/index.md
-    - Data Analytics: domains/data-analytics/index.md
+    - Data Engineering: domains/data-engineering.md
+    - Data Analytics: domains/data-analytics.md
   - AI Competency:
     - ai-competency/index.md
-    - AI Data Engineering: ai-competency/data-engineering.md
-    - AI Data Analytics: ai-competency/data-analytics.md
+    - AI Data Engineering: ai-competency/ai-data-engineering.md
+    - AI Data Analytics: ai-competency/ai-data-analytics.md
   - Curriculum: curriculum/index.md
   - Assets: assets/index.md
   - Sandbox: working/sandbox.md

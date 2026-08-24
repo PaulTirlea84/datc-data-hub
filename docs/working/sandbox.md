@@ -119,13 +119,13 @@ Iconite cu dimensiune mare in grid cards:
 
     Back-end data infrastructure — pipelines, cloud platforms, data architecture, storage, governance, and AI-ready data layers.
 
-    [Open Data Engineering →](../domains/data-engineering/index.md){ .md-button .md-button--primary }
+    [Open Data Engineering →](../domains/data-engineering.md){ .md-button .md-button--primary }
 
 === ":material-chart-bar: Data Analytics"
 
     Front-end data delivery — dashboards, semantic models, reporting, data visualisation, and BI architecture.
 
-    [Open Data Analytics →](../domains/data-analytics/index.md){ .md-button .md-button--primary }
+    [Open Data Analytics →](../domains/data-analytics.md){ .md-button .md-button--primary }
 
 ### Cu nivele
 
