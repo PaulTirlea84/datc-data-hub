@@ -16,15 +16,18 @@
     var badge = document.querySelector(bSel);
     if (!badge || all.length === 0) return;
 
-    if (done === all.length) {
+    var threshold = parseInt(badge.dataset.threshold || all.length, 10);
+
+    if (done >= threshold) {
       badge.className = "level-progress lp-ok";
-      badge.textContent =
-        "✓ " + level.toUpperCase() +
-        (track ? " — " + track.toUpperCase() : "") +
-        ": all " + all.length + " mandatory courses completed";
+      badge.textContent = (threshold < all.length)
+        ? "✓ " + done + " / " + all.length + " items confirmed — threshold of " + threshold + " met"
+        : "✓ All " + all.length + " mandatory courses completed";
     } else {
       badge.className = "level-progress lp-wip";
-      badge.textContent = done + " / " + all.length + " mandatory completed";
+      badge.textContent = (threshold < all.length)
+        ? done + " / " + threshold + " minimum items confirmed"
+        : done + " / " + all.length + " mandatory completed";
     }
   }
 

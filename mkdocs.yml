@@ -57,7 +57,6 @@ nav:
     - AI Data Analytics: ai-competency/ai-data-analytics.md
   - Curriculum: curriculum/index.md
   - Assets: assets/index.md
-  - Sandbox: working/sandbox.md
 
 extra:
   generator: false
