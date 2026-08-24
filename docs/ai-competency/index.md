@@ -11,12 +11,12 @@ Data Engineering builds the foundation. Data Analytics delivers the insight. Bot
 -   :material-database-outline: **AI Data Engineering**
   Back-end data infrastructure — pipelines, cloud platforms, data architecture, storage, governance, and AI-ready data layers. Data Engineers build the foundation that powers analytics, reporting, and AI applications.
 
-    [Go →](/ai-competency/ai-data-engineering){ .md-button }
+    [Go →](ai-data-engineering.md){ .md-button }
     
 -   :material-chart-bar: **AI Data Analytics**
   Front-end data delivery — dashboards, semantic models, reporting, data visualisation, and BI architecture. Analytics practitioners turn data into decisions and drive insight across the organisation.
 
-    [Go →](/ai-competency/ai-data-analytics){ .md-button }
+    [Go →](ai-data-analytics.md){ .md-button }
 
 </div>
 
