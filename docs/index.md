@@ -1,6 +1,6 @@
 # DATC Data Hub
 
-The **DATC Data Platform** is Accenture Bucharest's delivery capability within the global **Data & AI** practice — part of Danubia ATC, a centre with **119 specialists** across Data Engineering and Data Analytics. We cover the full data value chain from raw ingestion through to decision-ready insights.
+The **DATC Data Platform** is Accenture Bucharest's data delivery hub — part of Danubia ATC and the global Data practice. Two domains work together across the full data and AI value chain: **Data Engineering** builds the pipelines, cloud platforms, and data readiness layer that enables AI; **Data Analytics** delivers the KPI frameworks, dashboards, and AI-powered insights on top.
 
 ---
 
@@ -22,21 +22,21 @@ The **DATC Data Platform** is Accenture Bucharest's delivery capability within t
 
     [Explore](domains/index.md){ .md-button .md-button }
 
--   :material-school: **Curriculum**
-
-    ---
-
-    Structured training paths and competency maps across both domains. Coming soon.
-
-    [Explore](curriculum/index.md){ .md-button }
-
 -   :material-folder-open: **Assets**
 
     ---
 
-    Portfolio projects, reusable frameworks, and team resources. Coming soon.
+    Portfolio projects, reusable frameworks, and team resources.
 
     [Explore](assets/index.md){ .md-button }
+
+-   :material-school: **Curriculum**
+
+    ---
+
+    Structured training paths and competency maps across both domains.
+
+    <span style="color: #bdbdbd; font-size: 0.85rem;">Coming soon</span>
 
 </div>
 
@@ -48,7 +48,6 @@ The **DATC Data Platform** is Accenture Bucharest's delivery capability within t
 |---|---|---|
 | **Focus** | Back-end — pipelines, DWH, cloud platforms, governance | Front-end — dashboards, semantic models, BI architecture |
 | **Primary tools** | Oracle · Snowflake · Azure · Databricks · Fabric | Power BI · Fabric · Tableau · AWS QuickSight |
-| **Team size** | 76 Danubia · 20 Bucharest | 43 Danubia · 6 Bucharest |
 | **AI target (P3+)** | Agentic pipelines, RAG, vector databases | Agentic analytics, automated insights, AI dashboards |
 
 ---

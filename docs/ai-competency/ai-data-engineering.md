@@ -1,283 +1,289 @@
-# AI Data Engineer - Role Definition FY26
+# AI Data Engineering
 
-## Overview
+## AI Competency
 
-**AI Data Engineers** are the architects and builders of the enterprise data ecosystem that powers AI. They design, orchestrate, and optimize the flow of high-quality, secure, and reliable data needed for GenAI solutions, especially **Retrieval-Augmented Generation (RAG)**.
+AI-enabled Data Engineers design, build, and maintain the data foundations that power enterprise AI. They combine traditional pipeline engineering with AI-assisted development, automated transformation, intelligent ingestion, and RAG-ready data architecture. The role accelerates data delivery, improves reliability, and enables downstream AI teams — LLM developers, application engineers, and data scientists — to deliver accurate and scalable solutions.
 
-Their work spans:
-- **Ingestion and processing** of structured and unstructured data
-- **Data modeling and governance**
-- **Data readiness** and integration with modern database technologies (including vector stores)
+**Primary AI tools:** GitHub Copilot · Claude Code · Snowflake Cortex · Amazon Bedrock · Azure AI Services · Google Cloud AI
 
-By ensuring clean, trustworthy data pipelines, they enable downstream AI teams—LLM developers, application engineers, and data scientists—to deliver accurate and scalable AI solutions.
+## AI Role Details
 
----
+Architects and builders of the enterprise data ecosystem that powers AI — owning pipeline design, data governance, cloud platform operations, and AI-ready data delivery.
 
-## Key Responsibilities
+???+ success "What success looks like"
+    - AI tools are embedded in your regular workflow — pipeline development, data transformation, and quality checks happen faster because of them
+    - Repetitive engineering tasks (code generation, validation, documentation, pipeline scaffolding) are automated, not manual
+    - AI-assisted techniques — RAG pipelines, embedding generation, intelligent chunking, agentic data agents — are applied where they add value
+    - Every AI-generated pipeline or code output is validated before it reaches production, independently at your career level
+    - You have built reusable data engineering patterns that your team adopts for repeatable delivery
+    - Your data pipelines are AI-ready: clean, governed, trustworthy, and integrated with retrieval and embedding workflows
+    - Peers come to you for guidance on effective AI use in data engineering and platform workflows
 
-### Data Pipelines & Processing
-- Design, build, and maintain robust, scalable ETL/ELT pipelines for structured and unstructured data
-- Automate ingestion from diverse enterprise sources (SharePoint, Confluence, file systems, APIs, databases)
-- Implement efficient data processing workflows for RAG (chunking, embeddings, metadata enrichment)
+??? info "Career Progression"
+    === "Associate"
 
-### Data Storage & Databases
-- Manage cloud data platforms, data lakes, and warehouses
-- Implement and operate **vector databases** for semantic search and retrieval
-- Optimize data models for both analytical workloads and AI workloads
+        **P1 — AI Assisted**
 
-### Data Quality, Governance & Security
-- Establish frameworks for data quality, freshness, lineage, and observability
-- Ensure data readiness for AI: validated, complete, compliant, and trustworthy
-- Partner with governance teams on data access rules, retention, and compliance
+        Uses AI tools as a guided assistant. Follows existing prompts and templates. Validates all outputs with senior support before applying.
 
-### AI & RAG Enablement
-- Build the data foundations for GenAI applications, including:
-    - Document ingestion and normalization
-    - Intelligent chunking strategies
-    - Embedding pipelines
-    - Retrieval evaluation
-- Monitor and optimize RAG data layers for performance, latency, relevance, and accuracy
+        - Writes basic SQL and Python for data extraction and cleaning with Copilot assistance
+        - Uses LLMs to generate simple transformation code and formulas
+        - Monitors and maintains existing pipelines under guidance
+        - Learns core data warehousing and integration concepts
+        - Learns fundamentals of vector databases and embeddings
 
-### Collaboration & Delivery
-- Work with AI engineers, BI developers, and application teams to deliver end-to-end AI solutions
-- Contribute to architecture reviews, design patterns, and reusable data engineering frameworks
-- Document data pipelines, standards, and operational procedures
+    === "Analyst"
 
----
+        **P2 — AI Accelerated**
 
-## Skills Needed
+        Uses AI tools independently to build pipelines and automate transformations. Validates without senior oversight.
 
-### Technical Skills
-- **Expert SQL and Python** for ETL/ELT, transformations, and automation
-- Experience with **big data frameworks** (Spark, Databricks, Airflow, Kafka)
-- Familiarity with **cloud-native data services** (Azure, AWS, GCP)
-- Strong understanding of **data warehouses, lakes, lakehouses, and vector databases**
-- Knowledge of **embeddings, chunking logic, and retrieval workflows**
-- Experience designing **scalable data architectures** for AI and RAG workloads
+        - Builds simple pipelines for new data sources with limited supervision
+        - Leverages AI tools to automate transformations, validations, and ingestion
+        - Implements basic data quality and validation checks
+        - Manages databases and lakehouse structures independently
+        - Begins working with vector databases and embedding pipelines
 
-### Business & Behavioral Skills
-- Critical thinking to design resilient, efficient, high-quality data systems
-- Collaboration with product, engineering, and business teams
-- Curiosity and problem-solving mindset to evaluate and improve data workflows
-- Ability to communicate complex data concepts clearly and concisely
+    === "Senior Analyst"
 
----
+        **P3 — Agentic AI**
 
-## AI Proficiency Levels (P1–P5)
+        Designs and runs multi-step, agentic data workflows. Coaches peers. Owns complex pipeline and RAG delivery independently.
 
-### P1 — Foundational (Novice)
+        - Designs and builds complex, scalable pipelines for structured and unstructured data
+        - Uses agentic AI tools for multi-step data workflows
+        - Implements robust data governance, metadata, and quality frameworks
+        - Builds RAG-ready pipelines for chunking and embedding generation
 
-!!! info "AI Assisted"
-    Introduction of features such as **Copilot** and AI-driven recommendations to enhance user support.
+    === "Specialist"
 
-**Description:**
-- Writes basic SQL and Python for data extraction and cleaning
-- Uses LLMs to generate simple transformation code and formulas
-- Monitors and maintains existing pipelines with guidance
-- Understands core data warehousing and integration concepts
-- Learns fundamentals of vector databases and embeddings
+        **P3 — Agentic AI**
 
-**Key Skills:** Basic SQL/Python, data warehouse concepts, understanding of vectors and embeddings
+        Deep expert in data architecture and AI-ready pipeline design. Sets standards. Builds reusable frameworks.
 
-**Prerequisites:** No special requirements - entry level
+        - Sets engineering standards and designs agentic data workflows
+        - Builds reusable frameworks for RAG and embedding pipelines
+        - Coaches peers across the engineering practice
 
-??? note "Recommended Trainings (P1)"
-    | Training | Difficulty | Description |
-    |----------|------------|-------------|
-    | TQ Agentic AI Training | Easy | Build foundational awareness of agentic AI concepts, responsible use, and common enterprise scenarios |
-    | Reinvention with Agentic AI | Easy | Understand how agentic AI changes delivery models, roles, and ways of working |
-    | GitHub Copilot with Python | Easy | Use AI pair programming to support Python development for data extraction, transformation, testing, and documentation |
+    === "Assoc. Manager"
 
----
+        **P4 — Integrated AI**
 
-### P2 — Developing (Advanced Beginner)
+        Leads the data engineering stream. Integrates AI into team standards and delivery processes. Owns architecture decisions.
 
-!!! info "AI Accelerated"
-    Deployment of AI-generated outputs that are thoroughly verified for accuracy and reliability.
+        - Leads the data engineering stream and owns delivery decisions
+        - Integrates AI tools into pipeline standards and review processes
+        - Leads architecture design for major AI data initiatives
 
-**Description:**
-- Builds simple pipelines for new data sources with limited supervision
-- Leverages AI tools to automate transformations, validations, and ingestion processes
-- Implements basic data quality and validation checks
-- Supports data pipelines in warehouses and databases independently
-- Manages traditional databases and lakehouse structures
-- Begins working with vector databases and embedding pipelines
+    === "Manager"
 
-**Key Skills:** Simple pipelines, data quality checks, vector database basics
+        **P4 — Integrated AI**
 
-**Prerequisites:** SQL/Python basics, familiarity with data warehouses
+        Sets data engineering direction. Drives AI adoption. Advises leadership on AI data opportunities.
 
-??? note "Recommended Trainings (P2)"
-    | Training | Difficulty | Description |
-    |----------|------------|-------------|
-    | Level 3A | Medium | Develop practical agentic AI skills for structured prompting, tool-assisted delivery, and validated outputs |
-    | Level 3B | Medium | Strengthen applied agentic AI skills through more complex scenarios, review cycles, and delivery acceleration |
-    | Snowflake Foundations to AI | Easy | Connect Snowflake fundamentals with AI-ready data engineering patterns, governed data access, and scalable platform usage |
-    | Snowflake Cortex Code (CoCo) | Medium | Use AI-native coding inside Snowflake to generate, validate, and refine SQL, transformations, and pipeline logic |
+        - Sets data engineering direction and drives AI adoption strategy
+        - Owns domain standards and advises leadership on AI data opportunities
+        - Represents the team in external forums and client engagements
+
+    === "Architect"
+
+        **P5 — Governed AI**
+
+        Defines enterprise-wide AI data engineering strategy. Recognised authority on RAG and governed data ecosystems.
+
+        - Defines enterprise-wide AI data engineering strategy and standards
+        - Shapes the vision for data architecture, governance, and quality
+        - Acts as the recognised authority on RAG and AI data ecosystems
+
+??? note "Legend"
+    :material-check-circle: mandatory &nbsp;·&nbsp; :material-circle-outline: optional
+
+    Optionals from level N become mandatory at N+1. Cloud platform courses are always optional — pick the one relevant to your project stack.
+
+    Check the boxes as you complete courses — your progress is saved in the browser.
 
 ---
 
-### P3 — Independent / Agentic
-
-!!! info "Agentic AI"
-    Implementation of advanced techniques like **Retrieval-Augmented Generation (RAG)** and execution of complex multi-step processes.
-
-**Description:**
-- Uses agentic AI tools for multi-step workflows
-- Designs and builds complex, scalable pipelines for structured + unstructured data
-- Implements robust data governance, metadata, and quality frameworks
-- Solves advanced data integration and ingestion challenges
-- Builds reliable pipelines for **chunking** and **embedding generation** for RAG
-- Ensures data readiness for reporting and analytics
-
-**Key Skills:** Experience with Copilot in Visual Studio, Cortex in Snowflake, complex pipelines, chunking, embeddings, RAG
-
-**Prerequisites:** Experience with Copilot in Visual Studio, Cortex in Snowflake, Claude courses
-
-??? note "Recommended Trainings (P3)"
-    | Training | Difficulty | Description |
-    |----------|------------|-------------|
-    | SPEC Driven Development | Easy | Apply structured specification-first development to make AI-assisted delivery more consistent, testable, and reusable |
-    | Context Engineering for Agentic AI Systems | Easy | Design the context, instructions, constraints, and knowledge inputs required for reliable agentic AI workflows |
-    | Working with Data Agents | Medium | Build practical understanding of data agents that can reason over data, execute multi-step tasks, and support engineering workflows |
-    | Data Agents in Snowflake | Medium | Implement Snowflake-oriented data agents for governed data access, query assistance, retrieval, and workflow automation |
-    | Data Agents in Google | Easy | Explore Google Cloud data-agent patterns for data discovery, pipeline support, and AI-assisted cloud data workflows |
-    | Data Agents in Databricks | Hard | Apply data-agent patterns in Databricks for lakehouse engineering, notebook acceleration, workflow orchestration, and operational support |
-    | Snowflake Cortex for LLMs, RAG, and Search | Medium | Build LLM-powered search and RAG solutions in Snowflake using governed data, retrieval patterns, and evaluation practices |
+## AI Trainings
 
 ---
 
-### P4 — Advanced / AI Integration
+### P1 — AI Assisted
+*L12 Associate*
 
-!!! info "Integrated AI"
-    Full integration of AI capabilities into existing workflows and dashboards for seamless operation.
+??? tip "At this level"
+    Uses AI as a guided assistant for basic data engineering tasks — code generation, data exploration, and documentation — with validation from senior engineers.
 
-**Description:**
-- Integrates AI tools into pipelines for optimized processing and automation
-- Leads architecture design for major AI data initiatives (RAG, AI platforms, semantic layers)
-- Optimizes data processing for efficiency, relevance, and retrieval performance
-- Leads advanced workflows, performance optimization, and data quality improvements
-- Coaches and mentors junior engineers
-- Creates reusable frameworks, automation patterns, and best practices
+    - Writes basic SQL and Python for data extraction and cleaning with Copilot assistance
+    - Uses LLMs to generate simple transformation code and formulas
+    - Monitors and maintains existing pipelines under guidance
+    - Understands core data warehousing and integration concepts
+    - Learns fundamentals of vector databases and embeddings — how they connect to retrieval and search
+    - Uses Copilot as a learning accelerant; can explain what generated code does, but validates outputs with seniors
 
-**Key Skills:** AI architecture, technical leadership, mentoring, reusable frameworks
+    **Typical tasks:** generating basic SQL/Python with Copilot, exploring and summarising datasets with AI, drafting pipeline documentation, following existing transformation templates.
 
-**Prerequisites:** P3 completed + AI architecture experience, Data Agents
+??? abstract "Recommended Trainings"
+    | | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-check-circle: | TQ Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p1" data-mandatory="true" data-id="de-p1-tq-agentic"> |
+    | :material-check-circle: | GitHub Copilot with Python | General | [Workday](https://wd103.myworkday.com/accenture/email-universal/inst/22699$266024/rel-task/2998$35104.htmld) | <input type="checkbox" class="course-done" data-level="p1" data-mandatory="true" data-id="de-p1-copilot"> |
+    | :material-circle-outline: | Reinvention with Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p1" data-id="de-p1-reinvention"> |
 
-??? note "Recommended Trainings (P4)"
-    | Training | Difficulty | Description |
-    |----------|------------|-------------|
-    | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Easy | Understand how to build and integrate GenAI capabilities on AWS using managed foundation-model services |
-    | Agentic AI Deep Dive Learning Level 4A: Anthropic Claude Code | Hard | Use Claude Code for advanced AI-assisted development, refactoring, debugging, documentation, and engineering workflow integration |
-    | Scalable Data Architectures: Using Amazon Redshift & QuickSight | Hard | Design scalable AWS data architectures that connect data warehousing, BI, governed analytics, and AI-ready reporting patterns |
-    | Agentic AI Deep Dive Learning Level 4A - Oracle | Hard | Apply agentic AI concepts to Oracle enterprise data environments, integration patterns, and platform modernization scenarios |
-    | Agentic AI Deep Dive Level 4A for Cloud Engineers – AWS | Hard | Extend agentic AI into AWS cloud engineering, deployment automation, data services, and enterprise cloud operating models |
-    | Agentic AI Deep Dive Level 4A for Cloud Engineers – Azure | Hard | Extend agentic AI into Azure cloud engineering, platform automation, secure integration, and AI-ready data services |
-    | Agentic AI Deep Dive Level 4A for Cloud Engineers – GCP | Hard | Extend agentic AI into Google Cloud engineering, data platform automation, orchestration, and scalable AI-enabled delivery |
----
-
-### P5 — Expert / Strategist
-
-!!! info "Governed AI"
-    Ensuring compliance with corporate policies and embedding robust safety measures to govern AI usage.
-
-**Description:**
-- Delivers full end-to-end AI-augmented data solutions
-- Defines enterprise-wide AI data engineering strategy and standards
-- Shapes the vision for data architecture, governance, and quality across the organization
-- Defines automation practices and cross-platform standards
-- Acts as a recognized authority in data engineering for AI and RAG
-- Guides teams on AI-enhanced pipelines and best practices across multiple database technologies
-- Advises leadership and drives AI data ecosystem transformation
-
-**Key Skills:** Enterprise strategy, architecture, governance, cross-team leadership
-
-**Prerequisites:** P4 completed + technical leadership, strategic vision
-
-??? note "Recommended Trainings (P5)"
-    No mandatory training is currently assigned to P5. P5 should be validated through architect-level evidence: governed AI implementation, enterprise standards, reusable patterns, cost control, risk management, and strategic guidance across platforms.
----
-
-## Career Progression
-
-Mapping between **Career Level** and **AI Proficiency Level** for Data Engineers (DE):
-
-| Career Level | Role | Required AI Proficiency | Training Path |
-|:------------:|------|:-----------------------:|---------------|
-| **L12** | Associate | P1 | Complete P1 foundational AI trainings |
-| **L11** | Analyst | P2 | Complete P1 + P2 trainings |
-| **L10** | Senior Analyst | P3 | Complete P1 through P3 trainings |
-| **L9** | Specialist | P3 | Complete P1 through P3 trainings and apply agentic workflows independently |
-| **L8** | Associate Manager | P4 | Complete P1 through P4 trainings and lead integrated AI delivery |
-| **L7** | Manager | P4 | Complete P1 through P4 trainings and drive adoption across projects |
-| **✦** | Architect | P5 | Demonstrate governed AI, enterprise architecture, reusable standards, cost control, and cross-platform strategy |
-
-!!! tip "Progression Notes"
-    - Each role level requires the stated proficiency as the target level, while retaining knowledge from previous proficiency stages
-    - P5 is mapped to Architect-level responsibilities, focused on governed AI, enterprise standards, reusable architecture patterns, cost control, and strategic guidance
-    - Official trainings from PPT also include: GitHub Copilot with Python (P1), Snowflake Cortex CoCo (P2), Snowflake Cortex for LLMs/RAG (P3)
+<div class="level-progress" data-level="p1"></div>
 
 ---
 
-## AI Trainings Summary
+### P2 — AI Accelerated
+*L11 Analyst*
 
-### Training Distribution per Level (Core + Official Supporting Trainings)
+??? tip "At this level"
+    Uses AI tools independently to build pipelines, automate transformations, and accelerate data engineering delivery — validation no longer requires senior oversight.
 
-| Proficiency Level | Count | Complexity |
-|:------------------|:-----:|:-----------|
-| **P1** - Foundational | 3 | Easy |
-| **P2** - Developing | 4 | Easy-Medium |
-| **P3** - Independent/Agentic | 7 | Easy-Hard |
-| **P4** - Advanced/Integration | 7 | Easy-Hard |
-| **P5** - Expert/Strategist | 0 | N/A |
-| **TOTAL** | **21** | Core + official supporting trainings |
-!!! note "Counting logic"
-    The 18 validated trainings remain the core training path. The official PPT trainings GitHub Copilot with Python, Snowflake Cortex Code (CoCo), and Snowflake Cortex for LLMs/RAG/Search are included as supporting trainings because they are explicitly aligned to the DE proficiency model.
+    - Builds simple pipelines for new data sources with limited supervision
+    - Leverages AI tools to automate transformations, validations, and ingestion processes
+    - Implements basic data quality and validation checks
+    - Manages traditional databases and lakehouse structures independently
+    - Begins working with vector databases and embedding pipelines
+    - Uses Snowflake Cortex to accelerate SQL generation and pipeline logic; adapts or discards AI output independently
 
-### Complete Training Table
+    **Typical tasks:** building ingestion pipelines with AI assistance, validating AI-generated transformations independently, implementing data quality checks, working with Snowflake Cortex for AI-assisted development.
 
-| Level | Training Name | Category | Difficulty | Goal |
-|:-----:|---------------|----------|:----------:|------|
-| P1 | TQ Agentic AI training | TQ Agentic AI | Easy | Introductory AI training - foundational level |
-| P1 | Reinvention with Agentic AI | Reinvention with AI | Easy | Basic AI transformation concepts - foundational |
-| P2 | Level 3A | Agentic AI level 3A | Medium | Intermediate skills development - developing level |
-| P2 | Level 3B | Agentic AI level 3B | Medium | Continued developing skills |
-| P2 | Snowflake Foundations to AI | Deep Dive for DE | Easy | Snowflake + AI fundamentals - developing level |
-| P3 | SPEC Driven Development | Deep Dive for DE | Easy | Advanced development methodology - agentic workflows |
-| P3 | Context Engineering for Agentic AI Systems | Deep Dive for DE | Easy | Context engineering for agentic AI - independent |
-| P3 | Working with Data Agents | Deep Dive for DE | Medium | Data Agents - agentic workflows level |
-| P3 | Data Agents in Snowflake | Deep Dive for DE | Medium | Data Agents - agentic workflows level |
-| P3 | Data Agents in Google | Deep Dive for DE | Easy | Data Agents - agentic workflows level |
-| P3 | Data Agents in Databricks | Deep Dive for DE | Hard | Data Agents - agentic workflows level |
-| P4 | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Deep Dive for DE | Easy | Building GenAI models - advanced AI integration |
-| P4 | Agentic AI Deep Dive Learning Level 4A : Anthropic Claude Code | Deep Dive for DE | Hard | Advanced Claude Code - AI integration in development |
-| P4 | Scalable Data Architectures: Using Amazon Redshift & QuickSight | Deep Dive for DE | Hard | Advanced AI integration - AWS platform |
-| P4 | Agentic AI Deep Dive Learning Level 4A - Oracle | Enterprise Platform | Hard | Oracle enterprise integration - strategist |
-| P4 | Agentic AI Deep Dive Level 4A for Cloud Engineers – AWS | Cloud Engineers | Hard | AWS cloud architecture - enterprise strategy |
-| P4 | Agentic AI Deep Dive Level 4A for Cloud Engineers – Azure | Cloud Engineers | Hard | Azure cloud architecture - enterprise level |
-| P4 | Agentic AI Deep Dive Level 4A for Cloud Engineers – GCP | Cloud Engineers | Hard | GCP cloud architecture - strategist |
+??? abstract "Recommended Trainings"
+    | | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-check-circle: | Reinvention with Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="de-p2-reinvention"> |
+    | :material-check-circle: | Agentic AI Ecosystem Tools — Level 3A | Agentic 3A | [Workday](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="de-p2-3a"> |
+    | :material-check-circle: | Agentic AI Frameworks — Level 3B | Agentic 3B | [Workday](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="de-p2-3b"> |
+    | :material-check-circle: | Snowflake Foundations to AI | Snowflake | — | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="de-p2-snowflake-found"> |
+    | :material-check-circle: | Snowflake Cortex Code (CoCo) | Snowflake | [Workday](https://wd103.myworkday.com/accenture/learning/course/4d9e73686bf81000ca451bfbd0a80000) | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="de-p2-coco"> |
+    | :material-circle-outline: | Get started with data engineering on Azure | Cloud | [Link](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) | <input type="checkbox" class="course-done" data-level="p2" data-id="de-p2-azure"> |
+    | :material-circle-outline: | AWS Training – Digital Training | Cloud | [Link](https://aws.amazon.com/training/digital/) | <input type="checkbox" class="course-done" data-level="p2" data-id="de-p2-aws"> |
+    | :material-circle-outline: | Google Cloud Data Engineering & Analytics | Cloud | [Link](https://cloud.google.com/learn/training/data-engineering-and-analytics) | <input type="checkbox" class="course-done" data-level="p2" data-id="de-p2-gcp"> |
+
+    > Reinvention with Agentic AI was optional at P1 — it is mandatory from P2.
+
+<div class="level-progress" data-level="p2"></div>
 
 ---
 
-## Additional Resources (from Official PPT)
+### P3 — Agentic AI
+*L10 Senior Analyst · L9 Specialist*
 
-### Cloud Platform Trainings (P1-P3)
+??? tip "At this level"
+    Designs and executes complex, agentic data engineering workflows — multi-step pipelines, RAG foundations, and data agent patterns — independently and with growing authority.
 
-| Training | Proficiency | Goal | Link |
-|----------|:-----------:|------|:----:|
-| GitHub Copilot with Python | P1 | AI pair programming for Python pipelines | [Open](https://wd103.myworkday.com/accenture/email-universal/inst/22699$266024/rel-task/2998$35104.htmld) |
-| Snowflake Cortex Code (CoCo) | P2 | AI-native coding inside Snowflake | [Open](https://wd103.myworkday.com/accenture/learning/course/4d9e73686bf81000ca451bfbd0a80000) |
-| Snowflake Cortex for LLMs, RAG, and Search | P3 | Build RAG and LLM-powered search in Snowflake | [Open](https://wd103.myworkday.com/accenture/email-universal/inst/22699$241600/rel-task/2998$35104.htmld) |
-| Get started with data engineering on Azure | P1-P2 | Azure data engineering foundations | [Open](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) |
-| AWS Training – Digital Training | P1-P3 | AWS data and AI services | [Open](https://aws.amazon.com/training/digital/) |
-| Google Cloud Data Engineering & Analytics | P1-P3 | GCP data and AI pipelines | [Open](https://cloud.google.com/learn/training/data-engineering-and-analytics) |
+    - Uses agentic AI tools for multi-step data workflows
+    - Designs and builds complex, scalable pipelines for structured and unstructured data
+    - Implements robust data governance, metadata, and quality frameworks
+    - Builds reliable pipelines for chunking and embedding generation for RAG
+    - Implements Snowflake-native AI capabilities for governed data access, query assistance, and retrieval
+    - Ensures data readiness for reporting and analytics
+    - Coaches peers on agentic data patterns and best practices
+
+    **Typical tasks:** designing RAG-ready data pipelines, implementing embedding and chunking workflows, building data agents for multi-step engineering tasks, implementing metadata and governance frameworks at scale.
+
+??? abstract "Recommended Trainings"
+    Most courses below are part of the [Agentic AI Deep Dive Level 4A — Navigation Guide](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) program in Workday.
+
+    | | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-check-circle: | SPEC Driven Development | Deep Dive DE | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p3" data-mandatory="true" data-id="de-p3-spec"> |
+    | :material-check-circle: | Context Engineering for Agentic AI Systems | Deep Dive DE | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p3" data-mandatory="true" data-id="de-p3-context"> |
+    | :material-check-circle: | Working with Data Agents | Deep Dive DE | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p3" data-mandatory="true" data-id="de-p3-data-agents"> |
+    | :material-check-circle: | Data Agents in Snowflake | Snowflake | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p3" data-mandatory="true" data-id="de-p3-agents-sf"> |
+    | :material-check-circle: | Snowflake Cortex for LLMs, RAG, and Search | Snowflake | [Workday](https://wd103.myworkday.com/accenture/email-universal/inst/22699$241600/rel-task/2998$35104.htmld) | <input type="checkbox" class="course-done" data-level="p3" data-mandatory="true" data-id="de-p3-cortex-rag"> |
+    | :material-circle-outline: | Data Agents in Google | Cloud | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p3" data-id="de-p3-agents-gcp"> |
+    | :material-circle-outline: | Data Agents in Databricks | Cloud | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p3" data-id="de-p3-agents-dbx"> |
+
+<div class="level-progress" data-level="p3"></div>
 
 ---
 
-## DATC Relevancy
+### P4 — Integrated AI
+*L8 Associate Manager · L7 Manager*
 
-**HIGH** — This role is central to the DATC Data & AI platform. AI Data Engineers provide the data foundation required for all GenAI and RAG initiatives. Focus areas:
+??? tip "At this level"
+    Leads AI-integrated data architecture and delivery — owning standards, coaching the team, and driving adoption of AI tooling across the engineering practice.
 
-- Educating the broader pool of data engineers with AI capabilities
-- Responsible adoption of Copilot, LLMs, and RAG on Snowflake, AWS, Azure, and GCP
-- Ensuring governance, cost control, and reuse of AI patterns
+    - Integrates AI tools into pipelines for optimized processing and automation
+    - Leads architecture design for major AI data initiatives — RAG platforms, semantic layers, AI-ready data lakes
+    - Optimizes data processing for efficiency, relevance, and retrieval performance
+    - Coaches and mentors junior and mid-level engineers
+    - Creates reusable frameworks, automation patterns, and best practices
+    - Drives AI data adoption across the delivery team and sets the engineering standard
+
+    **Typical tasks:** leading AI-embedded pipeline architecture, defining team-wide engineering standards for AI delivery, reviewing AI-assisted code from seniors, presenting data engineering AI strategy to clients.
+
+??? abstract "Recommended Trainings"
+    All courses below are accessible through the [Agentic AI Deep Dive Level 4A — Navigation Guide](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) program in Workday. Pick one cloud-platform course relevant to your project stack.
+
+    **Cloud platform options:** Agentic AI Level 4A for Cloud Engineers — AWS · Azure · GCP · Oracle
+
+    | | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-check-circle: | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Deep Dive DE | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-mandatory="true" data-id="de-p4-bedrock"> |
+    | :material-check-circle: | Agentic AI Deep Dive Level 4A: Anthropic Claude Code | Agentic 4A | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-mandatory="true" data-id="de-p4-claude-code"> |
+    | :material-check-circle: | Scalable Data Architectures: Amazon Redshift & QuickSight | Deep Dive DE | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-mandatory="true" data-id="de-p4-redshift"> |
+    | :material-check-circle: | 1 cloud platform course (open pick) | Cloud 4A | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-mandatory="true" data-id="de-p4-cloud-pick"> |
+    | :material-circle-outline: | Agentic AI Deep Dive Level 4A for Cloud Engineers – AWS | Cloud 4A | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-id="de-p4-cloud-aws"> |
+    | :material-circle-outline: | Agentic AI Deep Dive Level 4A for Cloud Engineers – Azure | Cloud 4A | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-id="de-p4-cloud-azure"> |
+    | :material-circle-outline: | Agentic AI Deep Dive Level 4A for Cloud Engineers – GCP | Cloud 4A | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-id="de-p4-cloud-gcp"> |
+    | :material-circle-outline: | Agentic AI Deep Dive Level 4A – Oracle | Enterprise | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) | <input type="checkbox" class="course-done" data-level="p4" data-id="de-p4-oracle"> |
+
+<div class="level-progress" data-level="p4"></div>
+
+---
+
+### P5 — Governed AI
+*✦ Architect*
+
+??? tip "At this level"
+    Sets the enterprise direction for AI data engineering — strategy, standards, governance, and cross-platform vision — as the recognised authority in the practice.
+
+    - Defines enterprise-wide AI data engineering strategy and standards
+    - Shapes the vision for data architecture, governance, and quality across the organisation
+    - Defines automation practices and cross-platform standards
+    - Acts as the recognised authority on AI-ready pipelines, RAG architecture, and governed data ecosystems
+    - Guides teams on AI-enhanced pipelines and best practices across multiple database technologies
+    - Advises leadership and drives AI data ecosystem transformation
+
+    **Confirming at least 3 items in the Evidence section below qualifies as P5.**
+
+??? abstract "Evidence"
+    P5 is demonstrated through strategic contribution, not course completion. Mark the items that apply to your experience.
+
+    | Evidence | ✓ |
+    |---|:---:|
+    | Contributed to an RFP, proposal, or strategic initiative where AI data architecture was part of the solution design | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="de-p5-rfp"> |
+    | Proposed or co-authored a data engineering framework, pipeline standard, or AI data readiness model adopted by a team or client | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="de-p5-framework"> |
+    | Designed or governed a RAG data pipeline or embedding architecture deployed in a real engagement | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="de-p5-rag"> |
+    | Coached practitioners through an AI competency milestone (P2→P3 or P3→P4) in a structured way | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="de-p5-coaching"> |
+    | Presented an AI data engineering strategy, architecture recommendation, or governance approach to client leadership or a senior forum | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="de-p5-presentation"> |
+    | Owned or co-led the data engineering workstream on an AI delivery engagement — accountable for pipeline standards, quality, and governance | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="de-p5-workstream"> |
+    | Contributed to a community of practice, internal article, or external forum on AI in data engineering | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="de-p5-community"> |
+
+<div class="level-progress" data-level="p5" data-threshold="3"></div>
+
+---
+
+> This list will be expanded as the platform matures and new tools are validated.
+
+---
+
+## My AI Proficiency Level
+
+???+ success "Your recommended level"
+    Based on the courses and evidence you have confirmed above, your recommended level is calculated automatically.
+
+    The link below opens the Power Apps tool where you can officially update your level in the team tracker.
+
+<div class="proficiency-summary"
+     data-p1-mandatory='["de-p1-tq-agentic","de-p1-copilot"]'
+     data-p2-mandatory='["de-p2-reinvention","de-p2-3a","de-p2-3b","de-p2-snowflake-found","de-p2-coco"]'
+     data-p3-mandatory='["de-p3-spec","de-p3-context","de-p3-data-agents","de-p3-agents-sf","de-p3-cortex-rag"]'
+     data-p4-mandatory='["de-p4-bedrock","de-p4-claude-code","de-p4-redshift","de-p4-cloud-pick"]'
+     data-p5-ids='["de-p5-rfp","de-p5-framework","de-p5-rag","de-p5-coaching","de-p5-presentation","de-p5-workstream","de-p5-community"]'
+     data-p5-threshold="3"
+     data-update-url="https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&sourcetime=1788268219883&source=portal">
+</div>

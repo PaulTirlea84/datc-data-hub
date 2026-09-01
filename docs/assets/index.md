@@ -1,8 +1,8 @@
 ﻿# Assets
 
-Coming soon — portfolio projects, resurse si alte materiale.
+A collection of project examples, tools, and resources from the DATC Data Platform team — covering both Data Engineering and Data Analytics work.
 
-## Data Engineering - Project Examples
+## Data Engineering — Project Examples
 
 ??? example "Pharma — Master Data Management (Oracle + Snowflake + MuleSoft)"
     - **What was built:** MDM system maintenance and enhancement; ETL automation; integration with inbound/outbound systems via REST APIs and MuleSoft; senior lead developer role in SAFe Agile
@@ -46,7 +46,11 @@ Coming soon — portfolio projects, resurse si alte materiale.
 
 ---
 
-## Data Analytics - Project Examples
+## Data Analytics — Project Examples
+
+We also maintain a shared Power BI workspace with published demo reports — live examples of dashboards, semantic models, and reporting patterns built by the team.
+
+[Open DA Demo Workspace in Power BI :material-open-in-new:](https://app.powerbi.com/groups/1a45cdee-365b-4ef7-b90d-7f0d5f055120/list?experience=power-bi&subfolderId=79009){ .md-button target="_blank" }
 
 ??? example "Automotive — Large-Scale KPI Reporting Ecosystem"
     - **What was built:** 60+ reports and dashboards across 5 operational streams; 30+ data sources integrated; full semantic model with KPI/SLA framework; multi-year ownership
