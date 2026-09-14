@@ -130,20 +130,17 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 ### Career Progression
 
 ??? info "Career Progression"
-
     AI proficiency is assessed independently from career level. The mapping below shows the typical alignment — it is guidance, not an automatic entitlement.
 
-| AI Proficiency | Typical career alignment | Primary scope |
-|---|---|---|
-| P1 — AI Assisted | L12 Associate | Individual task |
-| P2 — AI Accelerated | L11 Analyst | Defined pipeline or engineering area |
-| P3 — Agentic Data Engineering | L10 Senior Analyst · L9 Specialist | End-to-end solution or reusable pattern |
-| P4 — Integrated and Governed AI | L8 Associate Manager · L7 Manager | Project, platform, or engineering practice |
-| P5 — Enterprise Agentic Data Strategy | Architect · recognised enterprise authority | Cross-platform or enterprise ecosystem |
+    | AI Proficiency | Typical career alignment | Primary scope |
+    |---|---|---|
+    | P1 — AI Assisted | L12 Associate | Individual task |
+    | P2 — AI Accelerated | L11 Analyst | Defined pipeline or engineering area |
+    | P3 — Agentic Data Engineering | L10 Senior Analyst · L9 Specialist | End-to-end solution or reusable pattern |
+    | P4 — Integrated and Governed AI | L8 Associate Manager · L7 Manager | Project, platform, or engineering practice |
+    | P5 — Enterprise Agentic Data Strategy | Architect · recognised enterprise authority | Cross-platform or enterprise ecosystem |
 
-??? note "Important"
-
-    Career level alone does not prove AI proficiency. Completing training alone does not prove AI proficiency. The assigned level must be supported by recent, relevant, independently reviewable evidence.
+    > Career level alone does not prove AI proficiency. Completing training alone does not prove AI proficiency. The assigned level must be supported by recent, relevant, independently reviewable evidence.
 
 ??? note "Legend"
     :material-star: **mandatory** &nbsp;·&nbsp; :material-circle-outline:{ .opt } **optional**
@@ -160,46 +157,46 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 ??? tip "At this level"
     Uses AI as a guided assistant for basic data engineering tasks — code generation, data exploration, and documentation — with validation from senior engineers.
 
-=== "Expected capability"
+    === "Expected capability"
 
-    - Uses approved AI assistants for simple SQL, Python, documentation, and troubleshooting tasks
-    - Uses existing data-agent interfaces or predefined workflows
-    - Understands the difference between a coding assistant, an automation, a data agent, and a RAG pipeline
-    - Recognises that AI output can be plausible but incorrect, incomplete, insecure, or out of context
-    - Performs basic checks before accepting generated output
-    - Follows existing security, privacy, coding, testing, and governance standards
-    - Escalates unclear, high-risk, or unexpected agent behaviour
-    - Never allows an agent to perform unapproved production changes
+        - Uses approved AI assistants for simple SQL, Python, documentation, and troubleshooting tasks
+        - Uses existing data-agent interfaces or predefined workflows
+        - Understands the difference between a coding assistant, an automation, a data agent, and a RAG pipeline
+        - Recognises that AI output can be plausible but incorrect, incomplete, insecure, or out of context
+        - Performs basic checks before accepting generated output
+        - Follows existing security, privacy, coding, testing, and governance standards
+        - Escalates unclear, high-risk, or unexpected agent behaviour
+        - Never allows an agent to perform unapproved production changes
 
-=== "Typical data-agent activities"
+    === "Typical data-agent activities"
 
-    - Run a predefined profiling agent on an assigned source
-    - Use an approved agent to explain a pipeline failure
-    - Generate draft SQL or Python with an AI assistant and correct it
-    - Generate initial documentation for an existing pipeline
-    - Review suggested data-quality checks with guidance
-    - Use a guided RAG ingestion workflow
-    - Confirm that agent results match the assigned task
+        - Run a predefined profiling agent on an assigned source
+        - Use an approved agent to explain a pipeline failure
+        - Generate draft SQL or Python with an AI assistant and correct it
+        - Generate initial documentation for an existing pipeline
+        - Review suggested data-quality checks with guidance
+        - Use a guided RAG ingestion workflow
+        - Confirm that agent results match the assigned task
 
-=== "Assessment dimensions"
+    === "Assessment dimensions"
 
-    | Dimension | P1 expectation |
-    |---|---|
-    | Autonomy | Requires guidance and review |
-    | Complexity | Simple, well-defined activities |
-    | Scope | Individual task or component |
-    | Impact | Limited and reversible |
-    | Governance | Follows existing controls |
-    | Data agents | Uses predefined agents |
-    | Validation | Performs basic checks with support |
+        | Dimension | P1 expectation |
+        |---|---|
+        | Autonomy | Requires guidance and review |
+        | Complexity | Simple, well-defined activities |
+        | Scope | Individual task or component |
+        | Impact | Limited and reversible |
+        | Governance | Follows existing controls |
+        | Data agents | Uses predefined agents |
+        | Validation | Performs basic checks with support |
 
-=== "Minimum evidence"
+    === "Minimum evidence"
 
-    - one completed AI-assisted engineering task;
-    - one example of validation applied to AI-generated output;
-    - one example of using an approved data agent or guided agentic workflow;
-    - evidence of review by a senior engineer;
-    - a short written explanation of limitations, risks, and lessons learned.
+        - one completed AI-assisted engineering task;
+        - one example of validation applied to AI-generated output;
+        - one example of using an approved data agent or guided agentic workflow;
+        - evidence of review by a senior engineer;
+        - a short written explanation of limitations, risks, and lessons learned.
 
 ??? abstract "Recommended Trainings"
     | | Training | Category | Link | ✓ |
@@ -220,49 +217,49 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 ??? tip "At this level"
     Uses AI tools independently to build pipelines, automate transformations, and accelerate delivery — validation no longer requires senior oversight. Configures data agents for defined engineering use cases.
 
-=== "Expected capability"
+    === "Expected capability"
 
-    - Uses AI assistants to create and refine SQL, Python, transformations, tests, and documentation
-    - Configures existing data agents for defined engineering use cases
-    - Applies agents to profiling, quality validation, reconciliation, documentation, or incident analysis
-    - Selects appropriate data sources, metadata, and tools for a defined task
-    - Verifies generated output using repeatable checks
-    - Recognises when a task is unsuitable for autonomous execution
-    - Measures a basic productivity, quality, or operational improvement
-    - Documents known limitations, assumptions, and escalation conditions
-    - Uses peer review and existing deployment controls before production release
+        - Uses AI assistants to create and refine SQL, Python, transformations, tests, and documentation
+        - Configures existing data agents for defined engineering use cases
+        - Applies agents to profiling, quality validation, reconciliation, documentation, or incident analysis
+        - Selects appropriate data sources, metadata, and tools for a defined task
+        - Verifies generated output using repeatable checks
+        - Recognises when a task is unsuitable for autonomous execution
+        - Measures a basic productivity, quality, or operational improvement
+        - Documents known limitations, assumptions, and escalation conditions
+        - Uses peer review and existing deployment controls before production release
 
-=== "Typical data-agent activities"
+    === "Typical data-agent activities"
 
-    - Configure a profiling agent for a new data source
-    - Use an agent to propose and execute approved quality checks
-    - Generate a pipeline scaffold and complete the implementation
-    - Use a data agent to investigate a failed load
-    - Generate and validate transformation tests
-    - Configure metadata enrichment for assigned data assets
-    - Build or maintain a basic chunking and embedding pipeline
-    - Measure time saved or defects detected through AI assistance
+        - Configure a profiling agent for a new data source
+        - Use an agent to propose and execute approved quality checks
+        - Generate a pipeline scaffold and complete the implementation
+        - Use a data agent to investigate a failed load
+        - Generate and validate transformation tests
+        - Configure metadata enrichment for assigned data assets
+        - Build or maintain a basic chunking and embedding pipeline
+        - Measure time saved or defects detected through AI assistance
 
-=== "Assessment dimensions"
+    === "Assessment dimensions"
 
-    | Dimension | P2 expectation |
-    |---|---|
-    | Autonomy | Independent on defined activities |
-    | Complexity | Standard pipeline and validation scenarios |
-    | Scope | Assigned pipeline, source, or data product area |
-    | Impact | Team or delivery impact |
-    | Governance | Applies existing controls independently |
-    | Data agents | Configures and applies existing agents |
-    | Validation | Independent and repeatable |
+        | Dimension | P2 expectation |
+        |---|---|
+        | Autonomy | Independent on defined activities |
+        | Complexity | Standard pipeline and validation scenarios |
+        | Scope | Assigned pipeline, source, or data product area |
+        | Impact | Team or delivery impact |
+        | Governance | Applies existing controls independently |
+        | Data agents | Configures and applies existing agents |
+        | Validation | Independent and repeatable |
 
-=== "Minimum evidence"
+    === "Minimum evidence"
 
-    - one independently delivered AI-assisted engineering artefact;
-    - one configured data-agent workflow with documented scope;
-    - deterministic tests or reconciliation evidence;
-    - documented assumptions and failure conditions;
-    - code review, design review, or peer validation;
-    - at least one measurable outcome — time saved, defects detected, manual effort removed, or documentation coverage improved.
+        - one independently delivered AI-assisted engineering artefact;
+        - one configured data-agent workflow with documented scope;
+        - deterministic tests or reconciliation evidence;
+        - documented assumptions and failure conditions;
+        - code review, design review, or peer validation;
+        - at least one measurable outcome — time saved, defects detected, manual effort removed, or documentation coverage improved.
 
 ??? abstract "Recommended Trainings"
     | | Training | Category | Link | ✓ |
@@ -286,54 +283,54 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 ??? tip "At this level"
     Designs and executes complex, agentic data engineering workflows — multi-step pipelines, RAG foundations, and data agent patterns — independently and with growing authority. Builds production-ready agents with validation, observability, access controls, and operational ownership.
 
-=== "Expected capability"
+    === "Expected capability"
 
-    - Designs data agents for well-defined engineering objectives
-    - Creates multi-step workflows combining metadata, lineage, policies, data tools, and engineering logic
-    - Defines agent objectives, instructions, context, tools, constraints, tests, and escalation conditions
-    - Builds human approval into high-risk actions
-    - Implements observability for agent actions, failures, quality, latency, and cost
-    - Applies least-privilege access and secure credential handling
-    - Uses deterministic rules to validate non-deterministic outputs
-    - Builds RAG-ready pipelines where retrieval is required
-    - Evaluates agent effectiveness using representative scenarios
-    - Produces reusable templates, components, or patterns
-    - Supports peers in applying data-agent engineering correctly
+        - Designs data agents for well-defined engineering objectives
+        - Creates multi-step workflows combining metadata, lineage, policies, data tools, and engineering logic
+        - Defines agent objectives, instructions, context, tools, constraints, tests, and escalation conditions
+        - Builds human approval into high-risk actions
+        - Implements observability for agent actions, failures, quality, latency, and cost
+        - Applies least-privilege access and secure credential handling
+        - Uses deterministic rules to validate non-deterministic outputs
+        - Builds RAG-ready pipelines where retrieval is required
+        - Evaluates agent effectiveness using representative scenarios
+        - Produces reusable templates, components, or patterns
+        - Supports peers in applying data-agent engineering correctly
 
-=== "Typical data-agent activities"
+    === "Typical data-agent activities"
 
-    - Build a data quality agent that profiles, detects, classifies, and recommends remediation
-    - Build a pipeline-support agent that analyses failures and proposes recovery actions
-    - Build a metadata agent that enriches assets and validates terminology
-    - Build a lineage-impact agent for proposed schema or model changes
-    - Build a governed RAG ingestion and refresh workflow
-    - Build a coordinated workflow spanning profiling, transformation, validation, and documentation
-    - Implement approval gates for production-sensitive actions
-    - Create an evaluation dataset and acceptance thresholds for an agent
+        - Build a data quality agent that profiles, detects, classifies, and recommends remediation
+        - Build a pipeline-support agent that analyses failures and proposes recovery actions
+        - Build a metadata agent that enriches assets and validates terminology
+        - Build a lineage-impact agent for proposed schema or model changes
+        - Build a governed RAG ingestion and refresh workflow
+        - Build a coordinated workflow spanning profiling, transformation, validation, and documentation
+        - Implement approval gates for production-sensitive actions
+        - Create an evaluation dataset and acceptance thresholds for an agent
 
-=== "Assessment dimensions"
+    === "Assessment dimensions"
 
-    | Dimension | L10 expectation | L9 expectation |
-    |---|---|---|
-    | Autonomy | Independent end-to-end delivery | Technical authority for the solution |
-    | Complexity | Complex workflow | Complex or multi-platform pattern |
-    | Scope | Project or data product | Multiple teams or reusable capability |
-    | Impact | Delivery and operational impact | Practice or platform impact |
-    | Governance | Implements required controls | Defines and reviews controls |
-    | Data agents | Designs and builds | Architects and standardizes |
-    | Leadership | Supports peers | Leads technical adoption |
+        | Dimension | L10 expectation | L9 expectation |
+        |---|---|---|
+        | Autonomy | Independent end-to-end delivery | Technical authority for the solution |
+        | Complexity | Complex workflow | Complex or multi-platform pattern |
+        | Scope | Project or data product | Multiple teams or reusable capability |
+        | Impact | Delivery and operational impact | Practice or platform impact |
+        | Governance | Implements required controls | Defines and reviews controls |
+        | Data agents | Designs and builds | Architects and standardizes |
+        | Leadership | Supports peers | Leads technical adoption |
 
-=== "Minimum evidence"
+    === "Minimum evidence"
 
-    - one production or production-representative data-agent implementation;
-    - architecture or technical design document;
-    - repository, pull request, or equivalent implementation evidence;
-    - automated tests and agent evaluation results;
-    - access-control and approval design;
-    - operational logs or observability evidence;
-    - runbook and failure-handling documentation;
-    - peer, SME, architecture, or security review;
-    - measurable delivery, quality, reliability, or operational outcome.
+        - one production or production-representative data-agent implementation;
+        - architecture or technical design document;
+        - repository, pull request, or equivalent implementation evidence;
+        - automated tests and agent evaluation results;
+        - access-control and approval design;
+        - operational logs or observability evidence;
+        - runbook and failure-handling documentation;
+        - peer, SME, architecture, or security review;
+        - measurable delivery, quality, reliability, or operational outcome.
 
 ??? abstract "Recommended Trainings"
     Most courses below are part of the [Agentic AI Deep Dive Level 4A — Navigation Guide](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) program in Workday.
@@ -358,53 +355,53 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 ??? tip "At this level"
     Leads AI-integrated data architecture and delivery — owning standards, coaching the team, and driving adoption of AI tooling across the engineering practice. Ensures agentic capabilities create measurable value without weakening security, reliability, or accountability.
 
-=== "Expected capability"
+    === "Expected capability"
 
-    - Defines reference architectures for AI-enabled data engineering and data agents
-    - Establishes engineering and governance standards for data-agent development
-    - Selects use cases based on value, feasibility, risk, and operational readiness
-    - Ensures human accountability and approval models are appropriate to risk
-    - Defines minimum observability and evaluation requirements
-    - Establishes reusable agent templates, policy patterns, and implementation guidance
-    - Leads architecture, security, privacy, governance, and operational reviews
-    - Integrates AI capabilities into the delivery lifecycle, CI/CD, platform operations, and support
-    - Defines adoption and value metrics, and reports them honestly including failures
-    - Coaches engineering leads and senior practitioners
-    - Ensures platform strategy includes metadata, lineage, semantic context, and machine-readable policies
-    - Stops or redesigns agentic use cases when controls, evidence, or business value are insufficient
+        - Defines reference architectures for AI-enabled data engineering and data agents
+        - Establishes engineering and governance standards for data-agent development
+        - Selects use cases based on value, feasibility, risk, and operational readiness
+        - Ensures human accountability and approval models are appropriate to risk
+        - Defines minimum observability and evaluation requirements
+        - Establishes reusable agent templates, policy patterns, and implementation guidance
+        - Leads architecture, security, privacy, governance, and operational reviews
+        - Integrates AI capabilities into the delivery lifecycle, CI/CD, platform operations, and support
+        - Defines adoption and value metrics, and reports them honestly including failures
+        - Coaches engineering leads and senior practitioners
+        - Ensures platform strategy includes metadata, lineage, semantic context, and machine-readable policies
+        - Stops or redesigns agentic use cases when controls, evidence, or business value are insufficient
 
-=== "Typical data-agent activities"
+    === "Typical data-agent activities"
 
-    - Define a reference architecture for enterprise data agents
-    - Establish agent onboarding, review, deployment, and retirement processes
-    - Define autonomy tiers and approval requirements
-    - Create standards for agent identity and least-privilege access
-    - Establish common logging, tracing, evaluation, and cost controls
-    - Lead adoption across multiple projects
-    - Define reusable agent patterns for quality, lineage, incidents, metadata, or optimization
-    - Integrate data agents with platform governance and operational support
+        - Define a reference architecture for enterprise data agents
+        - Establish agent onboarding, review, deployment, and retirement processes
+        - Define autonomy tiers and approval requirements
+        - Create standards for agent identity and least-privilege access
+        - Establish common logging, tracing, evaluation, and cost controls
+        - Lead adoption across multiple projects
+        - Define reusable agent patterns for quality, lineage, incidents, metadata, or optimization
+        - Integrate data agents with platform governance and operational support
 
-=== "Assessment dimensions"
+    === "Assessment dimensions"
 
-    | Dimension | L8 expectation | L7 expectation |
-    |---|---|---|
-    | Autonomy | Owns project or platform decisions | Owns domain or practice direction |
-    | Complexity | Multi-team or platform integration | Cross-platform organisational complexity |
-    | Scope | Project portfolio or platform | Engineering domain or practice |
-    | Impact | Repeatable adoption | Strategic and organisational impact |
-    | Governance | Defines and enforces standards | Owns governance direction |
-    | Data agents | Integrates and scales patterns | Sets adoption strategy |
-    | Leadership | Coaches teams and leads | Influences leadership and investment |
+        | Dimension | L8 expectation | L7 expectation |
+        |---|---|---|
+        | Autonomy | Owns project or platform decisions | Owns domain or practice direction |
+        | Complexity | Multi-team or platform integration | Cross-platform organisational complexity |
+        | Scope | Project portfolio or platform | Engineering domain or practice |
+        | Impact | Repeatable adoption | Strategic and organisational impact |
+        | Governance | Defines and enforces standards | Owns governance direction |
+        | Data agents | Integrates and scales patterns | Sets adoption strategy |
+        | Leadership | Coaches teams and leads | Influences leadership and investment |
 
-=== "Minimum evidence"
+    === "Minimum evidence"
 
-    - an approved reference architecture or platform design;
-    - a documented governance and approval model;
-    - an agent evaluation and observability standard;
-    - evidence of adoption across more than one team, project, or use case;
-    - measurable outcomes at platform or practice level;
-    - evidence of coaching, design authority, or technical governance;
-    - a lessons-learned review resulting in an updated standard or pattern.
+        - an approved reference architecture or platform design;
+        - a documented governance and approval model;
+        - an agent evaluation and observability standard;
+        - evidence of adoption across more than one team, project, or use case;
+        - measurable outcomes at platform or practice level;
+        - evidence of coaching, design authority, or technical governance;
+        - a lessons-learned review resulting in an updated standard or pattern.
 
 ??? abstract "Recommended Trainings"
     All courses below are accessible through the [Agentic AI Deep Dive Level 4A — Navigation Guide](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) program in Workday. Pick one cloud-platform course relevant to your project stack.
@@ -432,42 +429,42 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 ??? tip "At this level"
     Sets the enterprise direction for AI data engineering — strategy, standards, governance, and cross-platform vision — as the recognised authority in the practice.
 
-=== "Expected capability"
+    === "Expected capability"
 
-    - Defines the enterprise vision for AI-enabled and agentic data engineering
-    - Establishes principles for trusted and increasingly autonomous data operations
-    - Defines boundaries between assistance, recommendation, approval-based execution, and autonomous execution
-    - Aligns agent strategy with data architecture, metadata, lineage, governance, security, privacy, and operating model
-    - Defines enterprise interoperability across platforms, clouds, catalogues, agents, and orchestration technologies
-    - Creates decision frameworks for build, buy, reuse, and retirement
-    - Defines strategic measures for value, reliability, risk, cost, and adoption
-    - Influences platform roadmaps, investment decisions, and enterprise standards
-    - Represents the practice in executive, client, architectural, or industry forums
-    - Sponsors pilots and evidence-based expansion of the framework
-    - Ensures the framework evolves as technologies, regulations, and organisational requirements change
+        - Defines the enterprise vision for AI-enabled and agentic data engineering
+        - Establishes principles for trusted and increasingly autonomous data operations
+        - Defines boundaries between assistance, recommendation, approval-based execution, and autonomous execution
+        - Aligns agent strategy with data architecture, metadata, lineage, governance, security, privacy, and operating model
+        - Defines enterprise interoperability across platforms, clouds, catalogues, agents, and orchestration technologies
+        - Creates decision frameworks for build, buy, reuse, and retirement
+        - Defines strategic measures for value, reliability, risk, cost, and adoption
+        - Influences platform roadmaps, investment decisions, and enterprise standards
+        - Represents the practice in executive, client, architectural, or industry forums
+        - Sponsors pilots and evidence-based expansion of the framework
+        - Ensures the framework evolves as technologies, regulations, and organisational requirements change
 
-=== "Typical data-agent activities"
+    === "Typical data-agent activities"
 
-    - Define the enterprise agentic data reference architecture
-    - Define autonomy and accountability policies across platforms
-    - Establish agent identity, trust, interoperability, and audit principles
-    - Define enterprise evaluation and observability requirements
-    - Approve strategic data-agent use-case portfolios
-    - Resolve cross-platform architecture and governance conflicts
-    - Establish the long-term roadmap for agentic data management
-    - Publish reusable standards and recognised thought leadership
+        - Define the enterprise agentic data reference architecture
+        - Define autonomy and accountability policies across platforms
+        - Establish agent identity, trust, interoperability, and audit principles
+        - Define enterprise evaluation and observability requirements
+        - Approve strategic data-agent use-case portfolios
+        - Resolve cross-platform architecture and governance conflicts
+        - Establish the long-term roadmap for agentic data management
+        - Publish reusable standards and recognised thought leadership
 
-=== "Assessment dimensions"
+    === "Assessment dimensions"
 
-    | Dimension | P5 expectation |
-    |---|---|
-    | Autonomy | Enterprise authority |
-    | Complexity | Multi-platform and cross-domain |
-    | Scope | Enterprise or external ecosystem |
-    | Impact | Strategic and sustained |
-    | Governance | Defines principles and decision rights |
-    | Data agents | Shapes the enterprise agentic ecosystem |
-    | Leadership | Influences executives, architects, and external communities |
+        | Dimension | P5 expectation |
+        |---|---|
+        | Autonomy | Enterprise authority |
+        | Complexity | Multi-platform and cross-domain |
+        | Scope | Enterprise or external ecosystem |
+        | Impact | Strategic and sustained |
+        | Governance | Defines principles and decision rights |
+        | Data agents | Shapes the enterprise agentic ecosystem |
+        | Leadership | Influences executives, architects, and external communities |
 
 ??? abstract "Evidence"
     P5 is demonstrated through strategic contribution, not course completion. Mark the items that apply to your experience.
