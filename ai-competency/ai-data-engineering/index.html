@@ -1,0 +1,2169 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Learning paths and competency frameworks for the DATC Data Platform (DEVI)">
+      
+      
+        <meta name="author" content="DATC Data Platform Team">
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../ai-data-analytics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/accenture-favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>AI Data Engineering - DATC Data Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/accenture.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-data-engineering" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="DATC Data Hub" class="md-header__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DATC Data Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Data Engineering
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  AI Competency
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../domains/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Domains
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../assets/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Assets
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DATC Data Hub" class="md-nav__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    DATC Data Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Competency
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Competency
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-competency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Competency
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-role-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Role Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-ai-data-engineering-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core AI Data Engineering Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#responsible-data-agent-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Responsible Data-Agent Engineering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Responsible Data-Agent Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agent-autonomy-tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Autonomy Tiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#career-progression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Career Progression
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-proficiency-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Proficiency Levels
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Proficiency Levels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#p1-ai-assisted" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        P1 — AI Assisted
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#p2-ai-accelerated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        P2 — AI Accelerated
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#p3-agentic-data-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        P3 — Agentic Data Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#p4-integrated-and-governed-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        P4 — Integrated and Governed AI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#p5-enterprise-agentic-data-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        P5 — Enterprise Agentic Data Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proficiency-assessment-and-evidence-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proficiency Assessment and Evidence Framework
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suggested Metrics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#framework-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Framework Governance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#my-ai-proficiency-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        My AI Proficiency Level
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-data-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../domains/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domains
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domains
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/data-engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/data-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ai-data-engineering">AI Data Engineering</h1>
+<h3 id="ai-competency">AI Competency</h3>
+<p>AI-enabled Data Engineers design, build, operate, and govern the data foundations and data agents that power enterprise AI. They combine core data engineering with AI-assisted development, intelligent ingestion, automated transformation, agentic orchestration, data quality automation, and AI-ready data architecture.</p>
+<p>Data agents are a defining capability of this role. They use metadata, lineage, policies, business context, and approved tools to discover sources, profile data, generate or optimize pipelines, validate quality, investigate failures, enrich catalogues, and coordinate multi-step data workflows. RAG, embeddings, chunking, semantic retrieval, and vector stores remain important patterns, but they are treated as specific AI data products within the broader agentic data ecosystem.</p>
+<p><strong>Primary AI tools:</strong> GitHub Copilot · Claude Code · Snowflake Cortex · Amazon Bedrock · Azure AI Services · Google Cloud AI</p>
+<p><strong>Primary data-agent capabilities:</strong> source discovery · profiling · pipeline generation · testing · reconciliation · anomaly detection · incident investigation · metadata enrichment · lineage analysis · policy enforcement · workload optimization</p>
+<h3 id="ai-role-details">AI Role Details</h3>
+<p>AI Data Engineers are architects and builders of the enterprise data ecosystem that powers analytics, machine learning, GenAI applications, and autonomous data operations. They own pipeline design, platform integration, data-agent engineering, data quality, governance, observability, and trusted AI-ready data delivery.</p>
+<details class="success" open="open">
+<summary>What success looks like</summary>
+<ul>
+<li>AI tools are embedded in regular engineering work and produce measurable improvements in delivery speed, quality, reliability, or operating effort</li>
+<li>Repetitive tasks such as code scaffolding, testing, validation, documentation, profiling, and incident triage are automated where appropriate</li>
+<li>Data agents are applied to relevant lifecycle stages, with explicit objectives, approved tools, bounded actions, and clear escalation paths</li>
+<li>RAG and retrieval pipelines are implemented when required, with governed ingestion, chunking, embeddings, metadata, access controls, and retrieval evaluation</li>
+<li>Every AI-generated artefact is reviewed and validated at the level required by its risk and production impact</li>
+<li>High-impact actions use approval gates, least-privilege access, logging, traceability, rollback, and human accountability</li>
+<li>Reusable patterns, tests, agent templates, and runbooks are adopted by the team</li>
+<li>Data products remain clean, governed, observable, trustworthy, and fit for analytics and AI consumption</li>
+<li>Peers use your guidance to adopt AI and data-agent practices safely and effectively</li>
+</ul>
+</details>
+<h3 id="core-ai-data-engineering-capabilities">Core AI Data Engineering Capabilities</h3>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>AI-Assisted Engineering</strong></p>
+<hr />
+<p>Use AI coding assistants and platform copilots to accelerate SQL and Python development, pipeline scaffolding, transformation logic, test generation, configuration, code explanation and refactoring, technical documentation, and troubleshooting.</p>
+<p>AI-generated output follows the same engineering, review, testing, security, and deployment standards as human-written output.</p>
+</li>
+<li>
+<p><strong>Data Agent Engineering</strong></p>
+<hr />
+<p>Design, configure, build, integrate, and govern data agents that can:</p>
+<ul>
+<li>interpret a defined engineering objective;</li>
+<li>identify relevant metadata, data assets, and policies;</li>
+<li>create an execution plan;</li>
+<li>select and invoke approved tools;</li>
+<li>validate intermediate results;</li>
+<li>coordinate multiple engineering steps;</li>
+<li>request human approval when required;</li>
+<li>record actions, decisions, evidence, and outcomes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Intelligent Data Ingestion</strong></p>
+<hr />
+<p>Source discovery · schema inference · document classification · file and API ingestion · OCR and multimodal extraction · metadata extraction · ingestion error remediation · sensitive-data identification.</p>
+</li>
+<li>
+<p><strong>AI-Assisted Transformation and Modelling</strong></p>
+<hr />
+<p>Generate or refine transformation logic · recommend mappings · detect schema changes · propose data models · generate dbt models and tests · create data dictionaries · assess downstream impact. All generated transformations are validated through deterministic tests and business-rule verification.</p>
+</li>
+<li>
+<p><strong>Data Quality and Reconciliation Agents</strong></p>
+<hr />
+<p>Generate quality rules · execute profiling and validation · identify anomalies · compare source and target · perform row-count, hash, balance, and business-rule reconciliation · classify defects · recommend and verify remediation. Critical quality decisions remain attributable to an accountable owner.</p>
+</li>
+<li>
+<p><strong>Metadata, Lineage, and Governance Agents</strong></p>
+<hr />
+<p>Enrich catalogue descriptions · classify assets · map technical and business metadata · analyse lineage · assess downstream impact · detect policy violations · support access reviews · identify sensitive data · recommend retention, masking, or remediation. Agents never bypass approved access, security, privacy, or governance controls.</p>
+</li>
+<li>
+<p><strong>Operational and Incident Response Agents</strong></p>
+<hr />
+<p>Pipeline monitoring · failure classification · log and dependency analysis · root-cause investigation · runbook execution · remediation recommendations · incident documentation · post-incident analysis. Production changes, destructive actions, and access changes require explicit authorization.</p>
+</li>
+<li>
+<p><strong>RAG-Ready Data Engineering</strong></p>
+<hr />
+<p>Source onboarding · document ingestion and normalization · intelligent chunking · metadata enrichment · embedding generation · vector indexing · semantic and hybrid retrieval · access-aware retrieval · freshness management · retrieval evaluation · deletion and retention propagation.</p>
+</li>
+<li>
+<p><strong>Observability and Evaluation</strong></p>
+<hr />
+<p>Instrument both pipelines and agents: execution status · data quality results · freshness and completeness · schema and distribution drift · agent actions and tool calls · approval and escalation events · latency and failure rates · resource and cost usage · policy and guardrail events · resulting data changes · rollback and recovery outcomes.</p>
+</li>
+</ul>
+</div>
+<h3 id="responsible-data-agent-engineering">Responsible Data-Agent Engineering</h3>
+<p>All data-agent solutions follow these principles.</p>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th>What it means in practice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bounded autonomy</td>
+<td>Defined purpose, scope, allowed tools, data access, execution limits, escalation path</td>
+</tr>
+<tr>
+<td>Least-privilege access</td>
+<td>The agent receives only the permissions required for its approved task</td>
+</tr>
+<tr>
+<td>Human accountability</td>
+<td>Every production agent and automated decision has a named owner</td>
+</tr>
+<tr>
+<td>Human review by risk</td>
+<td>Review depth matches consequence, reversibility, and risk</td>
+</tr>
+<tr>
+<td>Deterministic validation</td>
+<td>Outputs verified with tests, constraints, reconciliation, schemas, acceptance criteria</td>
+</tr>
+<tr>
+<td>Traceability</td>
+<td>Prompts, context, tool calls, approvals, outcomes, and data changes are logged</td>
+</tr>
+<tr>
+<td>Observability</td>
+<td>Agent behaviour is measurable through operational, quality, and risk metrics</td>
+</tr>
+<tr>
+<td>Safe failure</td>
+<td>Agents fail predictably, stop at boundaries, avoid partial or inconsistent data states</td>
+</tr>
+<tr>
+<td>Rollback and recovery</td>
+<td>High-impact actions have tested rollback, retry, and incident procedures</td>
+</tr>
+<tr>
+<td>Separation of duties</td>
+<td>The same agent does not create, approve, and deploy its own high-impact change</td>
+</tr>
+<tr>
+<td>Data protection</td>
+<td>Security, privacy, retention, and client requirements apply equally to agent-driven work</td>
+</tr>
+</tbody>
+</table>
+<h4 id="agent-autonomy-tiers">Agent Autonomy Tiers</h4>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Agent behaviour</th>
+<th>Data engineering example</th>
+<th>Minimum control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A0 — Inform</td>
+<td>Explains or summarizes</td>
+<td>Explain a failed pipeline run</td>
+<td>User reviews result</td>
+</tr>
+<tr>
+<td>A1 — Recommend</td>
+<td>Proposes an action</td>
+<td>Recommend data-quality rules</td>
+<td>Human approves</td>
+</tr>
+<tr>
+<td>A2 — Draft</td>
+<td>Creates an artefact</td>
+<td>Generate SQL, dbt model, or config</td>
+<td>Code review and tests</td>
+</tr>
+<tr>
+<td>A3 — Execute with approval</td>
+<td>Executes after explicit sign-off</td>
+<td>Apply an approved metadata update</td>
+<td>Approval, logging, rollback</td>
+</tr>
+<tr>
+<td>A4 — Bounded execution</td>
+<td>Executes within strict limits</td>
+<td>Retry eligible failed loads</td>
+<td>Policies, limits, monitoring, rollback</td>
+</tr>
+<tr>
+<td>A5 — High autonomy</td>
+<td>Coordinates complex cross-system actions</td>
+<td>Autonomous workload optimization</td>
+<td>Exceptional governance and explicit authorization</td>
+</tr>
+</tbody>
+</table>
+<p>The appropriate tier depends on risk, reversibility, data sensitivity, operational impact, and regulatory context. Higher proficiency does not mean unrestricted autonomy is appropriate.</p>
+<div class="admonition warning">
+<p class="admonition-title">Design principle</p>
+<p>If a task can be solved reliably with deterministic automation, use deterministic automation. Agents are for work that requires interpretation, context, planning, or tool selection.</p>
+</div>
+<h3 id="career-progression">Career Progression</h3>
+<details class="info">
+<summary>Career Progression</summary>
+<p>AI proficiency is assessed independently from career level. The mapping below shows the typical alignment — it is guidance, not an automatic entitlement.</p>
+<table>
+<thead>
+<tr>
+<th>AI Proficiency</th>
+<th>Typical career alignment</th>
+<th>Primary scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P1 — AI Assisted</td>
+<td>L12 Associate</td>
+<td>Individual task</td>
+</tr>
+<tr>
+<td>P2 — AI Accelerated</td>
+<td>L11 Analyst</td>
+<td>Defined pipeline or engineering area</td>
+</tr>
+<tr>
+<td>P3 — Agentic Data Engineering</td>
+<td>L10 Senior Analyst · L9 Specialist</td>
+<td>End-to-end solution or reusable pattern</td>
+</tr>
+<tr>
+<td>P4 — Integrated and Governed AI</td>
+<td>L8 Associate Manager · L7 Manager</td>
+<td>Project, platform, or engineering practice</td>
+</tr>
+<tr>
+<td>P5 — Enterprise Agentic Data Strategy</td>
+<td>Architect · recognised enterprise authority</td>
+<td>Cross-platform or enterprise ecosystem</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Career level alone does not prove AI proficiency. Completing training alone does not prove AI proficiency. The assigned level must be supported by recent, relevant, independently reviewable evidence.</p>
+</blockquote>
+</details>
+<details class="note">
+<summary>Legend</summary>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>mandatory</strong> &nbsp;·&nbsp; <span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span> <strong>optional</strong></p>
+<ul>
+<li><strong>Mandatory courses</strong> must all be completed for the level to show as achieved (green bar).</li>
+<li><strong>Optional courses</strong> count toward your progress and stack — completing enough optionals can satisfy the level threshold even if a mandatory is missing.</li>
+<li>Your progress is saved in the browser. Ticking a box here does not auto-update the team tracker — use the Power Apps link at the bottom to officially record your level.</li>
+</ul>
+</details>
+<h3 id="ai-proficiency-levels">AI Proficiency Levels</h3>
+<h4 id="p1-ai-assisted">P1 — AI Assisted</h4>
+<p><em>L12 Associate</em></p>
+<details class="tip">
+<summary>At this level</summary>
+<p>Uses AI as a guided assistant for basic data engineering tasks — code generation, data exploration, and documentation — with validation from senior engineers.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Expected capability</label><label for="__tabbed_1_2">Typical data-agent activities</label><label for="__tabbed_1_3">Assessment dimensions</label><label for="__tabbed_1_4">Minimum evidence</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Uses approved AI assistants for simple SQL, Python, documentation, and troubleshooting tasks</li>
+<li>Uses existing data-agent interfaces or predefined workflows</li>
+<li>Understands the difference between a coding assistant, an automation, a data agent, and a RAG pipeline</li>
+<li>Recognises that AI output can be plausible but incorrect, incomplete, insecure, or out of context</li>
+<li>Performs basic checks before accepting generated output</li>
+<li>Follows existing security, privacy, coding, testing, and governance standards</li>
+<li>Escalates unclear, high-risk, or unexpected agent behaviour</li>
+<li>Never allows an agent to perform unapproved production changes</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Run a predefined profiling agent on an assigned source</li>
+<li>Use an approved agent to explain a pipeline failure</li>
+<li>Generate draft SQL or Python with an AI assistant and correct it</li>
+<li>Generate initial documentation for an existing pipeline</li>
+<li>Review suggested data-quality checks with guidance</li>
+<li>Use a guided RAG ingestion workflow</li>
+<li>Confirm that agent results match the assigned task</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>P1 expectation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autonomy</td>
+<td>Requires guidance and review</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>Simple, well-defined activities</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>Individual task or component</td>
+</tr>
+<tr>
+<td>Impact</td>
+<td>Limited and reversible</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>Follows existing controls</td>
+</tr>
+<tr>
+<td>Data agents</td>
+<td>Uses predefined agents</td>
+</tr>
+<tr>
+<td>Validation</td>
+<td>Performs basic checks with support</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>one completed AI-assisted engineering task;</li>
+<li>one example of validation applied to AI-generated output;</li>
+<li>one example of using an approved data agent or guided agentic workflow;</li>
+<li>evidence of review by a senior engineer;</li>
+<li>a short written explanation of limitations, risks, and lessons learned.</li>
+</ul>
+</div>
+</div>
+</div>
+</details>
+<details class="abstract">
+<summary>Recommended Trainings</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th>Training</th>
+<th>Category</th>
+<th>Link</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>TQ Agentic AI</td>
+<td>General</td>
+<td>—</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-tq-agentic"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>GitHub Copilot with Python</td>
+<td>General</td>
+<td><a href="https://wd103.myworkday.com/accenture/email-universal/inst/22699$266024/rel-task/2998$35104.htmld">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-github-copilot"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>AI &amp; Data-Agent Awareness — validation and approved use</td>
+<td>General</td>
+<td>—</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-agent-awareness"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Reinvention with Agentic AI</td>
+<td>General</td>
+<td>—</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-id="de-p1-reinvention"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Data Engineering Foundations</td>
+<td>Data Engineering</td>
+<td>—</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-id="de-p1-de-foundations"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>3 mandatory</strong> · 2 optional — complete all mandatory courses to pass this level; optionals build your progress score.</p>
+</blockquote>
+</details>
+<div class="level-progress" data-level="de-p1"></div>
+<h4 id="p2-ai-accelerated">P2 — AI Accelerated</h4>
+<p><em>L11 Analyst</em></p>
+<details class="tip">
+<summary>At this level</summary>
+<p>Uses AI tools independently to build pipelines, automate transformations, and accelerate delivery — validation no longer requires senior oversight. Configures data agents for defined engineering use cases.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Expected capability</label><label for="__tabbed_2_2">Typical data-agent activities</label><label for="__tabbed_2_3">Assessment dimensions</label><label for="__tabbed_2_4">Minimum evidence</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Uses AI assistants to create and refine SQL, Python, transformations, tests, and documentation</li>
+<li>Configures existing data agents for defined engineering use cases</li>
+<li>Applies agents to profiling, quality validation, reconciliation, documentation, or incident analysis</li>
+<li>Selects appropriate data sources, metadata, and tools for a defined task</li>
+<li>Verifies generated output using repeatable checks</li>
+<li>Recognises when a task is unsuitable for autonomous execution</li>
+<li>Measures a basic productivity, quality, or operational improvement</li>
+<li>Documents known limitations, assumptions, and escalation conditions</li>
+<li>Uses peer review and existing deployment controls before production release</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Configure a profiling agent for a new data source</li>
+<li>Use an agent to propose and execute approved quality checks</li>
+<li>Generate a pipeline scaffold and complete the implementation</li>
+<li>Use a data agent to investigate a failed load</li>
+<li>Generate and validate transformation tests</li>
+<li>Configure metadata enrichment for assigned data assets</li>
+<li>Build or maintain a basic chunking and embedding pipeline</li>
+<li>Measure time saved or defects detected through AI assistance</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>P2 expectation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autonomy</td>
+<td>Independent on defined activities</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>Standard pipeline and validation scenarios</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>Assigned pipeline, source, or data product area</td>
+</tr>
+<tr>
+<td>Impact</td>
+<td>Team or delivery impact</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>Applies existing controls independently</td>
+</tr>
+<tr>
+<td>Data agents</td>
+<td>Configures and applies existing agents</td>
+</tr>
+<tr>
+<td>Validation</td>
+<td>Independent and repeatable</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>one independently delivered AI-assisted engineering artefact;</li>
+<li>one configured data-agent workflow with documented scope;</li>
+<li>deterministic tests or reconciliation evidence;</li>
+<li>documented assumptions and failure conditions;</li>
+<li>code review, design review, or peer validation;</li>
+<li>at least one measurable outcome — time saved, defects detected, manual effort removed, or documentation coverage improved.</li>
+</ul>
+</div>
+</div>
+</div>
+</details>
+<details class="abstract">
+<summary>Recommended Trainings</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th>Training</th>
+<th>Category</th>
+<th>Link</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Reinvention with Agentic AI</td>
+<td>General</td>
+<td>—</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-reinvention"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Agentic AI Ecosystem Tools — Level 3A</td>
+<td>Agentic 3A</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-3a"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Agentic AI Frameworks — Level 3B</td>
+<td>Agentic 3B</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-3b"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Snowflake Foundations to AI</td>
+<td>Snowflake</td>
+<td>—</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-snowflake-foundations"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Snowflake Cortex Code (CoCo)</td>
+<td>Snowflake</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/course/4d9e73686bf81000ca451bfbd0a80000">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-snowflake-coco"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Get started with data engineering on Azure</td>
+<td>Cloud</td>
+<td><a href="https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/">Link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-azure"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>AWS Training – Digital Training</td>
+<td>Cloud</td>
+<td><a href="https://aws.amazon.com/training/digital/">Link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-aws"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Google Cloud Data Engineering &amp; Analytics</td>
+<td>Cloud</td>
+<td><a href="https://cloud.google.com/learn/training/data-engineering-and-analytics">Link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-gcp"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>5 mandatory</strong> · 3 optional — complete all mandatory courses to pass this level; optionals build your progress score.</p>
+</blockquote>
+</details>
+<div class="level-progress" data-level="de-p2"></div>
+<h4 id="p3-agentic-data-engineering">P3 — Agentic Data Engineering</h4>
+<p><em>L10 Senior Analyst · L9 Specialist</em></p>
+<details class="tip">
+<summary>At this level</summary>
+<p>Designs and executes complex, agentic data engineering workflows — multi-step pipelines, RAG foundations, and data agent patterns — independently and with growing authority. Builds production-ready agents with validation, observability, access controls, and operational ownership.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:4"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Expected capability</label><label for="__tabbed_3_2">Typical data-agent activities</label><label for="__tabbed_3_3">Assessment dimensions</label><label for="__tabbed_3_4">Minimum evidence</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Designs data agents for well-defined engineering objectives</li>
+<li>Creates multi-step workflows combining metadata, lineage, policies, data tools, and engineering logic</li>
+<li>Defines agent objectives, instructions, context, tools, constraints, tests, and escalation conditions</li>
+<li>Builds human approval into high-risk actions</li>
+<li>Implements observability for agent actions, failures, quality, latency, and cost</li>
+<li>Applies least-privilege access and secure credential handling</li>
+<li>Uses deterministic rules to validate non-deterministic outputs</li>
+<li>Builds RAG-ready pipelines where retrieval is required</li>
+<li>Evaluates agent effectiveness using representative scenarios</li>
+<li>Produces reusable templates, components, or patterns</li>
+<li>Supports peers in applying data-agent engineering correctly</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Build a data quality agent that profiles, detects, classifies, and recommends remediation</li>
+<li>Build a pipeline-support agent that analyses failures and proposes recovery actions</li>
+<li>Build a metadata agent that enriches assets and validates terminology</li>
+<li>Build a lineage-impact agent for proposed schema or model changes</li>
+<li>Build a governed RAG ingestion and refresh workflow</li>
+<li>Build a coordinated workflow spanning profiling, transformation, validation, and documentation</li>
+<li>Implement approval gates for production-sensitive actions</li>
+<li>Create an evaluation dataset and acceptance thresholds for an agent</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>L10 expectation</th>
+<th>L9 expectation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autonomy</td>
+<td>Independent end-to-end delivery</td>
+<td>Technical authority for the solution</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>Complex workflow</td>
+<td>Complex or multi-platform pattern</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>Project or data product</td>
+<td>Multiple teams or reusable capability</td>
+</tr>
+<tr>
+<td>Impact</td>
+<td>Delivery and operational impact</td>
+<td>Practice or platform impact</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>Implements required controls</td>
+<td>Defines and reviews controls</td>
+</tr>
+<tr>
+<td>Data agents</td>
+<td>Designs and builds</td>
+<td>Architects and standardizes</td>
+</tr>
+<tr>
+<td>Leadership</td>
+<td>Supports peers</td>
+<td>Leads technical adoption</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>one production or production-representative data-agent implementation;</li>
+<li>architecture or technical design document;</li>
+<li>repository, pull request, or equivalent implementation evidence;</li>
+<li>automated tests and agent evaluation results;</li>
+<li>access-control and approval design;</li>
+<li>operational logs or observability evidence;</li>
+<li>runbook and failure-handling documentation;</li>
+<li>peer, SME, architecture, or security review;</li>
+<li>measurable delivery, quality, reliability, or operational outcome.</li>
+</ul>
+</div>
+</div>
+</div>
+</details>
+<details class="abstract">
+<summary>Recommended Trainings</summary>
+<p>Most courses below are part of the <a href="https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000">Agentic AI Deep Dive Level 4A — Navigation Guide</a> program in Workday.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th>Training area</th>
+<th>Expected outcome</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Agentic AI Deep Dive</td>
+<td>Design multi-step agents and tool-enabled workflows</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-agentic-deep-dive"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Data-Agent Engineering</td>
+<td>Build agents using metadata, lineage, and governed tools</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-agent-engineering"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>AI Evaluation</td>
+<td>Define datasets, metrics, thresholds, and regression tests</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-ai-evaluation"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>AI Security and Responsible AI</td>
+<td>Apply access, approval, audit, and risk controls</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-ai-security"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Platform-Specific AI</td>
+<td>Implement on the project's selected cloud or data platform</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-platform-ai"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>RAG and Vector Retrieval</td>
+<td>Build and evaluate governed retrieval pipelines</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-rag"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>AI Observability</td>
+<td>Trace agent actions, failures, latency, quality, and cost</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-observability"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>5 mandatory</strong> · 2 optional — complete all mandatory courses to pass this level; optionals build your progress score.</p>
+</blockquote>
+</details>
+<div class="level-progress" data-level="de-p3"></div>
+<h4 id="p4-integrated-and-governed-ai">P4 — Integrated and Governed AI</h4>
+<p><em>L8 Associate Manager · L7 Manager</em></p>
+<details class="tip">
+<summary>At this level</summary>
+<p>Leads AI-integrated data architecture and delivery — owning standards, coaching the team, and driving adoption of AI tooling across the engineering practice. Ensures agentic capabilities create measurable value without weakening security, reliability, or accountability.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:4"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><input id="__tabbed_4_4" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Expected capability</label><label for="__tabbed_4_2">Typical data-agent activities</label><label for="__tabbed_4_3">Assessment dimensions</label><label for="__tabbed_4_4">Minimum evidence</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Defines reference architectures for AI-enabled data engineering and data agents</li>
+<li>Establishes engineering and governance standards for data-agent development</li>
+<li>Selects use cases based on value, feasibility, risk, and operational readiness</li>
+<li>Ensures human accountability and approval models are appropriate to risk</li>
+<li>Defines minimum observability and evaluation requirements</li>
+<li>Establishes reusable agent templates, policy patterns, and implementation guidance</li>
+<li>Leads architecture, security, privacy, governance, and operational reviews</li>
+<li>Integrates AI capabilities into the delivery lifecycle, CI/CD, platform operations, and support</li>
+<li>Defines adoption and value metrics, and reports them honestly including failures</li>
+<li>Coaches engineering leads and senior practitioners</li>
+<li>Ensures platform strategy includes metadata, lineage, semantic context, and machine-readable policies</li>
+<li>Stops or redesigns agentic use cases when controls, evidence, or business value are insufficient</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Define a reference architecture for enterprise data agents</li>
+<li>Establish agent onboarding, review, deployment, and retirement processes</li>
+<li>Define autonomy tiers and approval requirements</li>
+<li>Create standards for agent identity and least-privilege access</li>
+<li>Establish common logging, tracing, evaluation, and cost controls</li>
+<li>Lead adoption across multiple projects</li>
+<li>Define reusable agent patterns for quality, lineage, incidents, metadata, or optimization</li>
+<li>Integrate data agents with platform governance and operational support</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>L8 expectation</th>
+<th>L7 expectation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autonomy</td>
+<td>Owns project or platform decisions</td>
+<td>Owns domain or practice direction</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>Multi-team or platform integration</td>
+<td>Cross-platform organisational complexity</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>Project portfolio or platform</td>
+<td>Engineering domain or practice</td>
+</tr>
+<tr>
+<td>Impact</td>
+<td>Repeatable adoption</td>
+<td>Strategic and organisational impact</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>Defines and enforces standards</td>
+<td>Owns governance direction</td>
+</tr>
+<tr>
+<td>Data agents</td>
+<td>Integrates and scales patterns</td>
+<td>Sets adoption strategy</td>
+</tr>
+<tr>
+<td>Leadership</td>
+<td>Coaches teams and leads</td>
+<td>Influences leadership and investment</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>an approved reference architecture or platform design;</li>
+<li>a documented governance and approval model;</li>
+<li>an agent evaluation and observability standard;</li>
+<li>evidence of adoption across more than one team, project, or use case;</li>
+<li>measurable outcomes at platform or practice level;</li>
+<li>evidence of coaching, design authority, or technical governance;</li>
+<li>a lessons-learned review resulting in an updated standard or pattern.</li>
+</ul>
+</div>
+</div>
+</div>
+</details>
+<details class="abstract">
+<summary>Recommended Trainings</summary>
+<p>All courses below are accessible through the <a href="https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000">Agentic AI Deep Dive Level 4A — Navigation Guide</a> program in Workday. Pick one cloud-platform course relevant to your project stack.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th>Training area</th>
+<th>Expected outcome</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Agentic AI Architecture</td>
+<td>Define scalable and governed agent architectures</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-agentic-arch"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Responsible AI and Governance</td>
+<td>Establish decision, risk, and accountability controls</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-responsible-ai"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>AI Platform Operations</td>
+<td>Integrate monitoring, support, resilience, and cost controls</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-platform-ops"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>AI Strategy and Value Measurement</td>
+<td>Link agent capabilities to measurable outcomes</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-ai-strategy"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Leadership and Coaching</td>
+<td>Scale adoption and practitioner capability</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-leadership"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Azure AI and Data Agents</td>
+<td>Select when relevant to the project stack</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-azure"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Snowflake Cortex and Data Agents</td>
+<td>Select when relevant to the project stack</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-snowflake"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Databricks AI and Data Intelligence</td>
+<td>Select when relevant to the project stack</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-databricks"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>AWS Bedrock and Agentic Workflows</td>
+<td>Select when relevant to the project stack</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-aws"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>Google Cloud AI and Data Agents</td>
+<td>Select when relevant to the project stack</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-gcp"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>5 mandatory</strong> · 5 optional — complete all mandatory courses + pick the cloud-platform optional relevant to your project stack.</p>
+</blockquote>
+</details>
+<div class="level-progress" data-level="de-p4"></div>
+<h4 id="p5-enterprise-agentic-data-strategy">P5 — Enterprise Agentic Data Strategy</h4>
+<p><em>✦ Architect · recognised enterprise authority</em></p>
+<details class="tip">
+<summary>At this level</summary>
+<p>Sets the enterprise direction for AI data engineering — strategy, standards, governance, and cross-platform vision — as the recognised authority in the practice.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:3"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Expected capability</label><label for="__tabbed_5_2">Typical data-agent activities</label><label for="__tabbed_5_3">Assessment dimensions</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Defines the enterprise vision for AI-enabled and agentic data engineering</li>
+<li>Establishes principles for trusted and increasingly autonomous data operations</li>
+<li>Defines boundaries between assistance, recommendation, approval-based execution, and autonomous execution</li>
+<li>Aligns agent strategy with data architecture, metadata, lineage, governance, security, privacy, and operating model</li>
+<li>Defines enterprise interoperability across platforms, clouds, catalogues, agents, and orchestration technologies</li>
+<li>Creates decision frameworks for build, buy, reuse, and retirement</li>
+<li>Defines strategic measures for value, reliability, risk, cost, and adoption</li>
+<li>Influences platform roadmaps, investment decisions, and enterprise standards</li>
+<li>Represents the practice in executive, client, architectural, or industry forums</li>
+<li>Sponsors pilots and evidence-based expansion of the framework</li>
+<li>Ensures the framework evolves as technologies, regulations, and organisational requirements change</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Define the enterprise agentic data reference architecture</li>
+<li>Define autonomy and accountability policies across platforms</li>
+<li>Establish agent identity, trust, interoperability, and audit principles</li>
+<li>Define enterprise evaluation and observability requirements</li>
+<li>Approve strategic data-agent use-case portfolios</li>
+<li>Resolve cross-platform architecture and governance conflicts</li>
+<li>Establish the long-term roadmap for agentic data management</li>
+<li>Publish reusable standards and recognised thought leadership</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>P5 expectation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autonomy</td>
+<td>Enterprise authority</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>Multi-platform and cross-domain</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>Enterprise or external ecosystem</td>
+</tr>
+<tr>
+<td>Impact</td>
+<td>Strategic and sustained</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>Defines principles and decision rights</td>
+</tr>
+<tr>
+<td>Data agents</td>
+<td>Shapes the enterprise agentic ecosystem</td>
+</tr>
+<tr>
+<td>Leadership</td>
+<td>Influences executives, architects, and external communities</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</details>
+<details class="abstract">
+<summary>Evidence</summary>
+<p>P5 is demonstrated through strategic contribution, not course completion. Mark the items that apply to your experience.</p>
+<table>
+<thead>
+<tr>
+<th>Evidence</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enterprise strategy or target architecture</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-strategy"></td>
+</tr>
+<tr>
+<td>Approved governance principles</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-governance"></td>
+</tr>
+<tr>
+<td>Cross-platform operating model</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-operating-model"></td>
+</tr>
+<tr>
+<td>Strategic investment or roadmap decisions</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-roadmap"></td>
+</tr>
+<tr>
+<td>Adoption across multiple portfolios or business domains</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-adoption"></td>
+</tr>
+<tr>
+<td>Enterprise-wide standards</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-standards"></td>
+</tr>
+<tr>
+<td>Measurable strategic outcomes</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-outcomes"></td>
+</tr>
+<tr>
+<td>Executive or architecture-board sponsorship</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-sponsorship"></td>
+</tr>
+<tr>
+<td>External publications, industry contribution, or recognised thought leadership</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-thought-leadership"></td>
+</tr>
+<tr>
+<td>Evidence that standards have been maintained and improved over time</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-maintenance"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<div class="level-progress" data-level="de-p5" data-threshold="3"></div>
+<h3 id="proficiency-assessment-and-evidence-framework">Proficiency Assessment and Evidence Framework</h3>
+<blockquote>
+<p>Training demonstrates preparation. Delivery and evidence demonstrate proficiency.</p>
+</blockquote>
+<p>Courses, certifications, self-assessments, and badges may support an assessment, but they do not automatically assign a proficiency level. The assessment focuses on what the person has demonstrated in realistic engineering work.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:5"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><input id="__tabbed_6_3" name="__tabbed_6" type="radio" /><input id="__tabbed_6_4" name="__tabbed_6" type="radio" /><input id="__tabbed_6_5" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Assessment Dimensions</label><label for="__tabbed_6_2">Evidence Types</label><label for="__tabbed_6_3">Evidence Quality Criteria</label><label for="__tabbed_6_4">Assessment Rules</label><label for="__tabbed_6_5">Assessment Process</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Assessment question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Knowledge</td>
+<td>Does the person understand the relevant AI, data-agent, engineering, and governance concepts?</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>Can the person apply the capability in realistic engineering work?</td>
+</tr>
+<tr>
+<td>Autonomy</td>
+<td>How independently can the person operate and remain accountable for results?</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>What level of technical and operational complexity can the person handle?</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>Is the demonstrated scope a task, pipeline, project, platform, practice, or enterprise?</td>
+</tr>
+<tr>
+<td>Impact</td>
+<td>What measurable outcome was produced?</td>
+</tr>
+<tr>
+<td>Validation</td>
+<td>How were generated or agent-produced outputs verified?</td>
+</tr>
+<tr>
+<td>Governance</td>
+<td>Were security, privacy, policy, approval, and audit requirements applied correctly?</td>
+</tr>
+<tr>
+<td>Reusability</td>
+<td>Did the work create a reusable pattern, component, standard, or capability?</td>
+</tr>
+<tr>
+<td>Leadership</td>
+<td>Did the person guide others, establish standards, or influence strategic decisions?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p>Source code or repository · pull request or code review · pipeline implementation · agent configuration · architecture document · technical design · test suite · evaluation dataset · evaluation report · data quality report · reconciliation evidence · observability dashboard or logs · security or risk review · deployment record · runbook · incident report · reusable pattern or template · adoption evidence · measurable before-and-after outcome · peer, SME, architect, security, or stakeholder validation.</p>
+<p>Client-sensitive and confidential evidence must be redacted or assessed through an approved restricted process.</p>
+</div>
+<div class="tabbed-block">
+<p>Evidence should be recent enough to represent current capability, relevant to the requested level, attributable to the candidate, independently reviewable, supported by measurable or observable outcomes, compliant with security and confidentiality requirements, and complete enough to demonstrate both implementation and validation.</p>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>A candidate must meet the expectations for the requested level and all lower levels.</li>
+<li>A single training course cannot establish proficiency.</li>
+<li>A single prototype does not normally prove P4 or P5 capability.</li>
+<li>Evidence must demonstrate both capability and responsible execution.</li>
+<li>Production evidence is preferred; production-representative evidence may be accepted when production access is unavailable.</li>
+<li>For AI-assisted work, the engineer's own decisions, review, and corrections must be visible.</li>
+<li>The assessor may request a demonstration, technical discussion, or additional evidence.</li>
+<li>The final level should reflect consistently demonstrated capability, not one exceptional example.</li>
+<li>Platform-specific expertise is assessed separately from transferable engineering capability.</li>
+<li>Assessments should be reviewed periodically as the technology and framework evolve.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">On measurement</p>
+<p>Measuring competency reliably is the hardest part of this framework. The first cycles should be treated as calibration rather than final judgement — the purpose is to make expectations explicit, give people a concrete path, and improve the model based on how it behaves in real assessments.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Self-assessment — the candidate selects a proposed level and maps evidence to each dimension.</li>
+<li>Evidence review — an assessor reviews relevance, ownership, recency, scope, validation, and outcomes.</li>
+<li>Technical discussion or demonstration — the candidate explains design, decisions, controls, limitations, and lessons learned.</li>
+<li>Calibration — the assessor compares the evidence with examples from similar roles and levels.</li>
+<li>Decision — recorded as confirmed, provisionally confirmed, or development required.</li>
+<li>Development plan — gaps translated into practical activities, mentoring, training, or project opportunities.</li>
+<li>Periodic reassessment — revisited when responsibilities, technology, or evidence materially change.</li>
+</ol>
+</div>
+</div>
+</div>
+<h3 id="suggested-metrics">Suggested Metrics</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:5"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><input id="__tabbed_7_3" name="__tabbed_7" type="radio" /><input id="__tabbed_7_4" name="__tabbed_7" type="radio" /><input id="__tabbed_7_5" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Delivery</label><label for="__tabbed_7_2">Quality</label><label for="__tabbed_7_3">Operational</label><label for="__tabbed_7_4">Adoption &amp; Value</label><label for="__tabbed_7_5">Governance</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Engineering cycle-time reduction</li>
+<li>Time saved on repetitive tasks</li>
+<li>Pipeline development lead time</li>
+<li>Documentation coverage</li>
+<li>Test generation coverage</li>
+<li>Reusable component adoption</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Defects detected before release</li>
+<li>Reconciliation success rate</li>
+<li>False-positive and false-negative rates</li>
+<li>Data quality rule coverage</li>
+<li>Incident recurrence reduction</li>
+<li>Retrieval relevance and groundedness where applicable</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Mean time to detect</li>
+<li>Mean time to diagnose</li>
+<li>Mean time to recover</li>
+<li>Agent success rate</li>
+<li>Escalation rate</li>
+<li>Rollback rate</li>
+<li>Latency · reliability · resource and token cost</li>
+<li>Manual intervention rate</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Number of active users</li>
+<li>Number of projects using approved patterns</li>
+<li>Reuse rate</li>
+<li>User satisfaction</li>
+<li>Business value delivered</li>
+<li>Hours of manual effort avoided</li>
+<li>Platform cost avoided or optimized</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Metrics should be selected for the use case. A larger number of agents or automated actions is not, by itself, evidence of value. Value is shown by less rework, earlier detection, faster recovery, lower cost, and no loss of control.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<ul>
+<li><strong>Agents with accountable owners</strong> — ownership completeness</li>
+<li><strong>Agents with approved access profiles</strong> — access-control discipline</li>
+<li><strong>Agents with documented autonomy tiers</strong> — clarity of permitted behaviour</li>
+<li><strong>Agents with evaluation datasets</strong> — testability and trustworthiness</li>
+<li><strong>Agents with operational runbooks</strong> — operational readiness</li>
+<li><strong>Policy-violation rate</strong> — effectiveness of guardrails</li>
+<li><strong>Unapproved tool-call rate</strong> — boundary enforcement</li>
+<li><strong>Audit-trail completeness</strong> — traceability</li>
+<li><strong>Approval-control effectiveness</strong> — human oversight quality</li>
+</ul>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="framework-governance">Framework Governance</h3>
+<p>This framework is intended to evolve through practical use.</p>
+<p>Review cycle: after initial pilot assessments · when major platform capabilities change · when new security, privacy, regulatory, or client requirements emerge · when assessors interpret levels inconsistently · at least annually.</p>
+<p>Framework owners are responsible for maintaining proficiency definitions, approving changes, validating assessor guidance, curating evidence examples, resolving level-calibration questions, retiring outdated tools or training, and communicating framework changes.</p>
+<p>Versioning: each published version records version number · publication date · framework owner · summary of changes · approved exceptions · next planned review date.</p>
+<p>Continuous improvement: feedback from practitioners, assessors, platform owners, security teams, governance teams, and delivery leadership is captured and used to improve role descriptions, level boundaries, evidence requirements, training recommendations, governance controls, and platform-specific implementation guidance.</p>
+<details class="warning">
+<summary>Initial adoption</summary>
+<p>During the initial adoption period, proficiency decisions should be treated as calibrated development assessments rather than permanent labels. The purpose of the framework is to clarify expectations, guide learning, and build trusted capability. Changes are expected once the framework is used in real assessments and real projects.</p>
+</details>
+<h3 id="my-ai-proficiency-level">My AI Proficiency Level</h3>
+<details class="success" open="open">
+<summary>Your recommended level</summary>
+<p>Based on the courses and evidence you have confirmed above, your recommended level is calculated automatically.</p>
+<p>The link below opens the Power Apps tool where you can officially update your level in the team tracker.</p>
+<p><a class="ps-update-link" href="https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&amp;hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&amp;sourcetime=1788268219883&amp;source=portal" target="_blank">Update my proficiency level in Power Apps →</a></p>
+</details>
+<div class="proficiency-summary"
+     data-p1-mandatory='["de-p1-tq-agentic","de-p1-github-copilot","de-p1-agent-awareness"]'
+     data-p2-mandatory='["de-p2-reinvention","de-p2-3a","de-p2-3b","de-p2-snowflake-foundations","de-p2-snowflake-coco"]'
+     data-p3-mandatory='["de-p3-agentic-deep-dive","de-p3-agent-engineering","de-p3-ai-evaluation","de-p3-ai-security","de-p3-platform-ai"]'
+     data-p4-mandatory='["de-p4-agentic-arch","de-p4-responsible-ai","de-p4-platform-ops","de-p4-ai-strategy","de-p4-leadership"]'
+     data-p5-ids='["de-p5-strategy","de-p5-governance","de-p5-operating-model","de-p5-roadmap","de-p5-adoption","de-p5-standards","de-p5-outcomes","de-p5-sponsorship","de-p5-thought-leadership","de-p5-maintenance"]'
+     data-p5-threshold="3"
+     data-update-url="https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&sourcetime=1788268219883&source=portal">
+</div>
+
+<hr />
+<h3 id="summary">Summary</h3>
+<p>AI Data Engineering is not defined only by the use of copilots, RAG pipelines, or generative AI tools. It is defined by the ability to combine strong data engineering foundations with AI-assisted development, intelligent and agentic data operations, governed use of data agents, deterministic validation, observability and operational ownership, measurable engineering and business outcomes, and responsible scaling from task-level assistance to enterprise capability.</p>
+<p>The progression from P1 to P5 represents increasing autonomy, complexity, scope, impact, governance responsibility, and organisational influence.</p>
+<p>The framework should remain evidence-based, adaptable, and continuously improved as real projects and technologies evolve.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+  
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; Copyright © 2026 Accenture. All rights reserved.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="datc-brand-footer">
+    <div class="datc-brand-footer__inner">
+      <img src="../../assets/accenture-logo.png" class="datc-brand-footer__logo" alt="Accenture" />
+      <span class="datc-brand-footer__wordmark">accenture</span>
+      <span class="datc-brand-footer__divider">|</span>
+      <span class="datc-brand-footer__team">DATC Data Hub</span>
+    </div>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../js/competency-tracker.js"></script>
+      
+    
+  </body>
+</html>
