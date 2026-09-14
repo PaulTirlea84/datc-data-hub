@@ -77,6 +77,9 @@
   font-size: 0.75rem;
 }
 
+/* ── Optional course icon (grayed) ───────────────────────────────── */
+.opt { color: #9e9e9e; }
+
 /* ── Competency tracker ───────────────────────────────────────────── */
 .course-done {
   cursor: pointer;

@@ -91,11 +91,13 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
         - Acts as recognised authority on AI-enabled analytics at the practice level
 
 ??? note "Legend"
-    :material-check-circle: mandatory &nbsp;·&nbsp; :material-circle-outline: optional
+    :material-star: **mandatory** &nbsp;·&nbsp; :material-circle-outline:{ .opt } **optional**
 
-    Optionals from level N become mandatory at N+1 within the same track. Cross-track courses are always introduced one level later than they are required in Data Engineering.
-
-    Check the boxes as you complete courses — your progress is saved in the browser.
+    - **Mandatory courses** must all be completed for the level to show as achieved (green bar).
+    - **Optional courses** count toward your progress and stack — completing enough optionals can satisfy the level threshold even if a mandatory is missing.
+    - **At P3 and P4** the threshold is **4 courses total** (any mix of mandatory + optional across all tracks).
+    - Your progress is saved in the browser. Ticking a box here does not auto-update the team tracker — use the Power Apps link at the bottom to officially record your level.
+    - Complete the courses for **your primary tool track** (Power BI, Tableau, or QuickSight). Cross-track optionals apply regardless of track.
 
 ---
 
@@ -120,10 +122,12 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
 ??? abstract "Recommended Trainings"
     | | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
-    | :material-check-circle: | TQ Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p1" data-mandatory="true" data-id="p1-tq-agentic"> |
-    | :material-circle-outline: | Reinvention with Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p1" data-id="p1-reinvention"> |
-    | :material-circle-outline: | Get Started with Copilot in Power BI | Power BI | — | <input type="checkbox" class="course-done" data-level="p1" data-id="p1-pbi-copilot-start"> |
-    | :material-circle-outline: | Responsible Use of Copilot for Power BI | Power BI | — | <input type="checkbox" class="course-done" data-level="p1" data-id="p1-pbi-copilot-resp"> |
+    | :material-star: | TQ Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p1" data-mandatory="true" data-id="p1-tq-agentic"> |
+    | :material-circle-outline:{ .opt } | Reinvention with Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p1" data-id="p1-reinvention"> |
+    | :material-circle-outline:{ .opt } | Get Started with Copilot in Power BI | Power BI | — | <input type="checkbox" class="course-done" data-level="p1" data-id="p1-pbi-copilot-start"> |
+    | :material-circle-outline:{ .opt } | Responsible Use of Copilot for Power BI | Power BI | — | <input type="checkbox" class="course-done" data-level="p1" data-id="p1-pbi-copilot-resp"> |
+
+    > :material-star: **1 mandatory** · 3 optional — complete the mandatory course to pass this level; optionals build your progress score.
 
 <div class="level-progress" data-level="p1"></div>
 
@@ -146,15 +150,14 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
 ??? abstract "Recommended Trainings"
     | | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
-    | :material-check-circle: | Reinvention with Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="p2-reinvention"> |
-    | :material-check-circle: | Agentic AI Ecosystem Tools — Level 3A | Agentic 3A | [Workday](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000?page=1&record=2ddc7d286ba7100135e8795b16520001&type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="p2-3a"> |
-    | :material-check-circle: | Agentic AI Frameworks — Level 3B | Agentic 3B | [Workday](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000?page=2&record=6d5c0af6a2971000e0b1838e01c10000&type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="p2-3b"> |
-    | :material-circle-outline: | Smart Narratives, Q&A Visuals & Copilot in Power BI | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/4432b89894741021cce0f1fc6d8f0000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p2" data-id="p2-pbi-smart"> |
-    | :material-circle-outline: | Extend data insights with Power BI Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/17668f036a52103c4df9fca05bb70000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p2" data-id="p2-pbi-extend"> |
-    | :material-circle-outline: | Snowflake Foundations to AI | Cross-track | — | <input type="checkbox" class="course-done" data-level="p2" data-id="p2-snowflake"> |
+    | :material-star: | Reinvention with Agentic AI | General | — | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="p2-reinvention"> |
+    | :material-star: | Agentic AI Ecosystem Tools — Level 3A | Agentic 3A | [Workday](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000?page=1&record=2ddc7d286ba7100135e8795b16520001&type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="p2-3a"> |
+    | :material-star: | Agentic AI Frameworks — Level 3B | Agentic 3B | [Workday](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000?page=2&record=6d5c0af6a2971000e0b1838e01c10000&type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="p2" data-mandatory="true" data-id="p2-3b"> |
+    | :material-circle-outline:{ .opt } | Smart Narratives, Q&A Visuals & Copilot in Power BI | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/4432b89894741021cce0f1fc6d8f0000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p2" data-id="p2-pbi-smart"> |
+    | :material-circle-outline:{ .opt } | Extend data insights with Power BI Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/17668f036a52103c4df9fca05bb70000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p2" data-id="p2-pbi-extend"> |
+    | :material-circle-outline:{ .opt } | Snowflake Foundations to AI | Cross-track | — | <input type="checkbox" class="course-done" data-level="p2" data-id="p2-snowflake"> |
 
-    > Reinvention with Agentic AI was optional at P1 — it is mandatory from P2.
-    > Power BI courses are optional here; they become mandatory at P3 for the Power BI track.
+    > :material-star: **3 mandatory** · 3 optional — complete all 3 mandatory courses to pass this level; optionals build your progress score.
 
 <div class="level-progress" data-level="p2"></div>
 
@@ -181,40 +184,35 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
 
         | | Training | Category | Link | ✓ |
         |:---:|---|---|---|:---:|
-        | :material-check-circle: | Smart Narratives, Q&A Visuals & Copilot in Power BI | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/4432b89894741021cce0f1fc6d8f0000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-smart"> |
-        | :material-check-circle: | Extend data insights with Power BI Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/17668f036a52103c4df9fca05bb70000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-extend"> |
-        | :material-check-circle: | Advanced Features: Copilot for Smart Narratives & DAX Queries | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/d6f892e7525b10007e238a6d23430001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-adv-smart"> |
-        | :material-check-circle: | Analyze Data in Power BI with Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/e895784cdec710011c577460e1a40001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-analyze"> |
-        | :material-circle-outline: | Advanced Features: Copilot for Dataflows & Reports | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/634ead4bb865100206c2ad4175a00001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-adv-df"> |
-        | :material-circle-outline: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-claude"> |
-        | :material-circle-outline: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-git"> |
-        | :material-circle-outline: | Working with Data Agents | Cross-track | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-data-agents"> |
-        | :material-circle-outline: | Snowflake Foundations to AI | Cross-track | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-snowflake"> |
+        | :material-star: | Smart Narratives, Q&A Visuals & Copilot in Power BI | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/4432b89894741021cce0f1fc6d8f0000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-smart"> |
+        | :material-star: | Extend data insights with Power BI Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/17668f036a52103c4df9fca05bb70000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-extend"> |
+        | :material-star: | Advanced Features: Copilot for Smart Narratives & DAX Queries | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/d6f892e7525b10007e238a6d23430001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-adv-smart"> |
+        | :material-star: | Analyze Data in Power BI with Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/e895784cdec710011c577460e1a40001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-analyze"> |
+        | :material-circle-outline:{ .opt } | Advanced Features: Copilot for Dataflows & Reports | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/634ead4bb865100206c2ad4175a00001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-adv-df"> |
+        | :material-circle-outline:{ .opt } | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-claude"> |
+        | :material-circle-outline:{ .opt } | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-git"> |
+        | :material-circle-outline:{ .opt } | Working with Data Agents | Cross-track | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-data-agents"> |
+        | :material-circle-outline:{ .opt } | Snowflake Foundations to AI | Cross-track | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-snowflake"> |
 
-        > First two mandatory courses were optional at P2. Claude Code and GitHub Copilot become mandatory at P4.
 
     === "Tableau"
 
         | | Training | Category | Link | ✓ |
         |:---:|---|---|---|:---:|
-        | :material-circle-outline: | Tableau Analyst Learning Path | Tableau | — | <input type="checkbox" class="course-done" data-level="p3" data-track="tab" data-id="p3-tab-learning-path"> |
-
-        !!! info "More Tableau AI training coming soon"
-            Tableau AI-specific training (Tableau Agent, Tableau Pulse) has not yet been fully identified in the Accenture learning platform. This track will be updated when courses become available.
-
-            In the meantime, complete all **General** and **3A / 3B** courses from P1 and P2, and apply Tableau AI features (Explain Data, Forecasting, data-driven alerts) actively in your project work.
+        | :material-star: | Analytics and AI Gallery | Tableau | [tableau.com](https://www.tableau.com/datafam-gallery) | <input type="checkbox" class="course-done" data-level="p3" data-track="tab" data-mandatory="true" data-id="p3-tab-analytics-ai-gallery"> |
+        | :material-star: | Tableau Agentic Analytics | Tableau | [tableau.com](https://www.tableau.com/agentic-analytics) | <input type="checkbox" class="course-done" data-level="p3" data-track="tab" data-mandatory="true" data-id="p3-tab-agentic"> |
 
     === "QuickSight (AWS)"
 
         | | Training | Category | Link | ✓ |
         |:---:|---|---|---|:---:|
-        | :material-check-circle: | Scalable Data Architectures: Amazon Redshift & QuickSight | QuickSight | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-mandatory="true" data-id="p3-qs-redshift"> |
-        | :material-check-circle: | Getting Started with Administering Amazon Quick Suite | QuickSight | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-mandatory="true" data-id="p3-qs-admin"> |
-        | :material-circle-outline: | Amazon Q — Generative AI-powered Assistant Learning Plan | QuickSight | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-id="p3-qs-amazonq"> |
-        | :material-circle-outline: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-id="p3-qs-claude"> |
-        | :material-circle-outline: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-id="p3-qs-git"> |
+        | :material-star: | Scalable Data Architectures: Amazon Redshift & QuickSight | QuickSight | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-mandatory="true" data-id="p3-qs-redshift"> |
+        | :material-star: | Getting Started with Administering Amazon Quick Suite | QuickSight | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-mandatory="true" data-id="p3-qs-admin"> |
+        | :material-circle-outline:{ .opt } | Amazon Q — Generative AI-powered Assistant Learning Plan | QuickSight | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-id="p3-qs-amazonq"> |
+        | :material-circle-outline:{ .opt } | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-id="p3-qs-claude"> |
+        | :material-circle-outline:{ .opt } | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="qs" data-id="p3-qs-git"> |
 
-        > Amazon Q Learning Plan becomes mandatory at P4. Claude Code and GitHub Copilot become mandatory at P4.
+    > :material-star: **Threshold: 4 courses total** across all tracks — any mix of mandatory + optional counts. Complete your primary track first, then add from other tracks or cross-track optionals.
 
 <div class="level-progress" data-level="p3" data-threshold="4"></div>
 
@@ -243,39 +241,44 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
 
         | | Training | Category | Link | ✓ |
         |:---:|---|---|---|:---:|
-        | :material-check-circle: | Advanced Features: Copilot for Dataflows & Reports | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/634ead4bb865100206c2ad4175a00001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-adv-df"> |
-        | :material-check-circle: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-claude"> |
-        | :material-check-circle: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-git"> |
-        | :material-check-circle: | 1 cross-track course (open pick) | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-cross"> |
-        | :material-circle-outline: | Agentic AI Deep Dive Level 4A: Anthropic Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-claude-deep"> |
-        | :material-circle-outline: | Working with Data Agents | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-data-agents"> |
-        | :material-circle-outline: | Data Agents in Snowflake | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-data-agents-sf"> |
-        | :material-circle-outline: | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-bedrock"> |
-        | :material-circle-outline: | Amazon Q — Generative AI-powered Assistant Learning Plan | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-amazonq"> |
+        | :material-star: | Advanced Features: Copilot for Dataflows & Reports | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/634ead4bb865100206c2ad4175a00001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-adv-df"> |
+        | :material-star: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-claude"> |
+        | :material-star: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-git"> |
+        | :material-star: | 1 cross-track course (open pick) | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-mandatory="true" data-id="p4-pbi-cross"> |
+        | :material-circle-outline:{ .opt } | Agentic AI Deep Dive Level 4A: Anthropic Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-claude-deep"> |
+        | :material-circle-outline:{ .opt } | Working with Data Agents | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-data-agents"> |
+        | :material-circle-outline:{ .opt } | Data Agents in Snowflake | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-data-agents-sf"> |
+        | :material-circle-outline:{ .opt } | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-bedrock"> |
+        | :material-circle-outline:{ .opt } | Amazon Q — Generative AI-powered Assistant Learning Plan | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="pbi" data-id="p4-pbi-amazonq"> |
 
     === "Tableau"
 
         | | Training | Category | Link | ✓ |
         |:---:|---|---|---|:---:|
-        | :material-check-circle: | Trailhead Cert Prep — Tableau Data Analyst | Tableau | TBD | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-cert"> |
-        | :material-check-circle: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-claude"> |
-        | :material-check-circle: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-git"> |
-        | :material-check-circle: | 1 cross-track course (open pick) | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-cross"> |
-        | :material-circle-outline: | Working with Data Agents | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-id="p4-tab-data-agents"> |
-        | :material-circle-outline: | Agentic AI Deep Dive Level 4A: Anthropic Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-id="p4-tab-claude-deep"> |
-        | :material-circle-outline: | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-id="p4-tab-bedrock"> |
+        | :material-star: | Analytics and AI Gallery | Tableau | [tableau.com](https://www.tableau.com/datafam-gallery) | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-analytics-ai-gallery"> |
+        | :material-star: | Tableau Agentic Analytics | Tableau | [tableau.com](https://www.tableau.com/agentic-analytics) | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-agentic"> |
+        | :material-star: | OpenAI for Data & Deployment of AI Solutions | OpenAI | [accentureanalytics.com](https://accenture-openai-partnership.accentureanalytics.com/learn/) | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-openai"> |
+        | :material-star: | Trailhead Cert Prep — Tableau Data Analyst | Tableau | TBD | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-cert"> |
+        | :material-star: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-claude"> |
+        | :material-star: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-git"> |
+        | :material-star: | 1 cross-track course (open pick) | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-mandatory="true" data-id="p4-tab-cross"> |
+        | :material-circle-outline:{ .opt } | Working with Data Agents | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-id="p4-tab-data-agents"> |
+        | :material-circle-outline:{ .opt } | Agentic AI Deep Dive Level 4A: Anthropic Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-id="p4-tab-claude-deep"> |
+        | :material-circle-outline:{ .opt } | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="tab" data-id="p4-tab-bedrock"> |
 
     === "QuickSight (AWS)"
 
         | | Training | Category | Link | ✓ |
         |:---:|---|---|---|:---:|
-        | :material-check-circle: | Amazon Q — Generative AI-powered Assistant Learning Plan | QuickSight | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-amazonq"> |
-        | :material-check-circle: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-claude"> |
-        | :material-check-circle: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-git"> |
-        | :material-check-circle: | 1 cross-track course (open pick) | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-cross"> |
-        | :material-circle-outline: | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-id="p4-qs-bedrock"> |
-        | :material-circle-outline: | Agentic AI Deep Dive Level 4A: Anthropic Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-id="p4-qs-claude-deep"> |
-        | :material-circle-outline: | Data Agents in Snowflake | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-id="p4-qs-data-agents-sf"> |
+        | :material-star: | Amazon Q — Generative AI-powered Assistant Learning Plan | QuickSight | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-amazonq"> |
+        | :material-star: | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-claude"> |
+        | :material-star: | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-git"> |
+        | :material-star: | 1 cross-track course (open pick) | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-mandatory="true" data-id="p4-qs-cross"> |
+        | :material-circle-outline:{ .opt } | Generative AI on AWS: Building GenAI Models with Amazon Bedrock | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-id="p4-qs-bedrock"> |
+        | :material-circle-outline:{ .opt } | Agentic AI Deep Dive Level 4A: Anthropic Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-id="p4-qs-claude-deep"> |
+        | :material-circle-outline:{ .opt } | Data Agents in Snowflake | Cross-track | — | <input type="checkbox" class="course-done" data-level="p4" data-track="qs" data-id="p4-qs-data-agents-sf"> |
+
+    > :material-star: **Threshold: 4 courses total** across all tracks — any mix of mandatory + optional counts. Complete your primary track first, then add from other tracks or cross-track optionals.
 
 <div class="level-progress" data-level="p4" data-threshold="4"></div>
 
